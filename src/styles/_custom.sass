@@ -1,0 +1,124 @@
+.banner-principal__img
+  animation-name: spin
+  animation-duration: 10.0s
+  animation-iteration-count: infinite
+  -o-animation-direction: alternate
+
+@keyframes spin
+  0%
+    transform: rotate(0deg) 
+    transform: translatey(0px)
+    transform: translatex(0px)           
+  25%
+    transform: rotate(1deg)
+  50%
+    transform: rotate(0deg)
+    transform: translatex(16px)           
+  60%
+    transform: translatey(16px)    
+  75%
+    transform: rotate(1deg)
+    transform: translatex(-16px)   
+  100%
+    transform: rotate(0deg)
+    transform: translatey(0px)
+    transform: translatex(0px)   
+
+.img-a 
+  display: block
+  margin: auto
+
+.img-t
+  width: auto
+  height: auto    
+
+.BorTit
+  border-left: 5px solid #00357B
+  padding: 6px 0px 6px 10px     
+  
+.BorTit_table
+  border-left: 5px solid #EA3065
+  padding: 6px 0px 6px 10px    
+
+.list 
+  width: 100%
+  display: flex !important
+  &__item 
+    &__bulletNumber 
+      position: relative
+      width: 30px
+      height: 30px
+      margin-right: 1rem
+      text-align: center
+      border-radius: 50%
+      background-color: #BF3976
+      span 
+        color: white
+        font-weight: 700
+        font-size: small
+        position: absolute
+        top: 50%
+        left: 50%
+        transform: translate(-50%, -50%)
+      
+    
+    &__number 
+      position: relative
+      margin-right: 0.5rem
+      span 
+        color:#BF3976
+        font-size: 13pt
+        font-weight: 700
+        line-height: 1.2
+      
+    
+    &__icon 
+      position: relative
+      width: 10px
+      margin-right: 0.65rem
+      margin-top: 4px
+      img 
+        width: 10px
+        vertical-align: middle
+        
+  &__txt 
+    p:first-child,
+    h3:first-child 
+      margin-top: 0px  
+
+.card-bg-1     
+  background-color: #E2E2E2 
+
+.card-bg-2    
+  background-color: #FEE6E3 
+  border-radius: 50px 
+
+.card-bg-3  
+  background-color: #FFE7D1
+
+.ml
+  margin-left: 3rem        
+
+.contenedor 
+  position: relative
+  height: 290px
+  width: 290px
+  margin: 50px 20px
+  float: left
+
+.contenedor img 
+  position: absolute
+  left: 0
+  transition: opacity .5s ease-in-out
+
+.contenedor img.top:hover 
+  opacity: 0
+  
+.cajon.color-primario
+  background-color: #FEE6E3 !important
+
+.table-bg
+  background-color: #00357B !important   
+
+.t-border
+  border-left: 2px solid #AFAFAF !important
