@@ -108,7 +108,7 @@
 
     .row.justify-content-center.align-items-center.mt-5      
       .col-lg-8
-        img.img-t.img-a(src='@/assets/ilustraciones/img10.png', alt='') 
+        img.img-t.img-a(data-aos="fade-down")(src='@/assets/ilustraciones/img10.png', alt='') 
         .row.justify-content-between.align-items-center.mt-5      
           .col-lg-7(data-aos="fade-down-right") 
             ol.lista-ol--cuadro

@@ -613,7 +613,7 @@
 
     .row.justify-content-center.align-items-stretch.mt-5(data-aos="fade-left")
       .col-lg-8
-        img.img-a.img-t.img-margin(src="@/assets/ilustraciones/img39.png")
+        img.img-a.img-t.img-margin.alert(src="@/assets/ilustraciones/img39.png")
         p.row-card-color-1.mb-0.text-center #[b En resumen, el tratamiento del tabaquismo incluye intervenciones terapéuticas que han demostrado ser eficaces, como son la consejería, la terapia farmacológica y la combinación de consejería y terapia farmacológica.]
 </template>
 
