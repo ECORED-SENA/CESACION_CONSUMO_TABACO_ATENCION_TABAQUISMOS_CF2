@@ -51,11 +51,10 @@
       margin-right: 1rem
       text-align: center
       border-radius: 50%
-      background-color: #BF3976
+      background-color: #F98473
       span 
         color: white
         font-weight: 700
-        font-size: small
         position: absolute
         top: 50%
         left: 50%
@@ -83,8 +82,8 @@
         
   &__txt 
     p:first-child,
-    h3:first-child 
-      margin-top: 0px  
+    h4:first-child 
+      margin-top: 7px  
 
 .card-bg-1     
   background-color: #E2E2E2 
@@ -95,6 +94,9 @@
 
 .card-bg-3  
   background-color: #FFE7D1
+
+.card-bg-4  
+  background-color: #F3F9FF  
 
 .ml
   margin-left: 3rem        
@@ -122,3 +124,187 @@
 
 .t-border
   border-left: 2px solid #AFAFAF !important
+
+.br-1
+  border-left: 4px solid #F98473
+  border-right: 4px solid #F98473 
+
+.row-color-1
+  background-color: #FEE6E3  
+
+.row-color-2
+  background-color: #FFE7D1
+
+.row-color-3
+  background-color: #EAE1E0      
+
+.button-sv
+  background-color: #727997
+  color: $white
+  font-size: 15px
+  text-align: center
+  cursor: pointer
+
+.button-sv.gris
+  background-color: #E8E8E8
+  color: $black
+
+.button-sv.gris.color-acento-contenido
+  &:hover
+    background-color: mix($color-acento-contenido, #FFF, 50%)
+    color: $white
+  &.active
+    background-color: $color-acento-contenido
+    color: $white 
+
+.button-sv.gris.color-acento-contenido
+  &:hover
+    background-color: mix($color-acento-contenido, #FFF, 50%)
+    color: $white
+  &.active
+    background-color: $color-acento-contenido
+    color: $white     
+
+.row-hr
+  border-bottom: 1px solid #F98473     
+    
+.list-color
+  color: #00357B
+
+.beat:hover
+  animation: beat 2.0s
+  animation-iteration-count: infinite
+
+@keyframes beat 
+  0%  
+    transform: translatey(2px)
+  25%  
+    transform: translatey(0px)     
+  50%  
+    transform: translatey(2px)
+  75%  
+    transform: translatey(0px)      
+  100%  
+    transform: translatey(2px)         
+
+.bloque-texto-c.color-primario
+  background-color:#FEE6E3 !important   
+
+.title-gray
+  color: #636363
+
+.flip-container
+	perspective: 1000px
+  
+/* flip the pane when hovered */
+.flip-container:hover .flipper, .flip-container.hover .flipper, .flip-container.flip .flipper 
+	transform: rotateY(180deg)
+.flip-container, .front, .back
+	width: 100%
+	height: 60px
+/* flip speed goes here */
+.flipper
+	transition: 0.6s
+	transform-style: preserve-3d
+	position: relative
+/* hide back of pane during swap */
+.front, .back
+	backface-visibility: hidden
+	position: absolute
+	top: 0
+	left: 0
+  display: block
+  margin: auto 
+/* front pane, placed above back */
+.front 
+	z-index: 2
+	/* for firefox 31 */
+	transform: rotateY(0deg)
+/* back, initially hidden pane */
+.back
+	transform: rotateY(180deg)
+.front.Text
+  background-color: #00357B
+  border-left: 15px solid white
+  border-right: 15px solid white
+  padding-left: 0px
+  padding-right: 0px
+  padding-top: 1em;
+
+.back.generic
+  background-color: #FEE6E3
+  border-left: 15px solid white
+  border-right: 15px solid white
+  padding-left: 0px
+  padding-right: 0px
+
+.run-right
+  animation: run-right 5.0s
+  animation-iteration-count: infinite
+@keyframes run-right 
+  0%  
+    transform: translatex(0px)
+  50%  
+    transform: translatex(15px)     
+  100%  
+    transform: translatex(0px)      
+
+.run-left
+  animation: run-left 5.0s
+  animation-iteration-count: infinite
+@keyframes run-left 
+  0%  
+    transform: translatex(0px)
+  50%  
+    transform: translatex(-15px)     
+  100%  
+    transform: translatex(0px)          
+
+.row-card-color
+  background-color: #FEE6E3   
+  border: 10px solid white
+
+.row-br
+  border: 13px solid white
+
+.bloque-texto-d i
+  color: #FF4A69 !important
+.bloque-texto-d.color-secundario::before
+  background-color: #FEE6E3 !important
+.bloque-texto-d 
+    border-top: 1px solid #FF4A69 !important
+
+.cajon.color-secundario
+  background-color: #FFE7D1 !important   
+
+.tabs-c
+  border: 1px solid #E8E8E8 !important
+.tabs-c__tab
+  background-color: #D9E1EB !important
+.tabs-c__tab::after
+  background-color: #7B7B7B !important 
+
+.tarjeta--azul
+  background-color: white !important
+.slyder-a__bullets
+  bottom: -30px !important
+.slyder-a__btn--sigt
+  background-color: #F6F6F6 !important
+.slyder-a__btn--atrs
+  background-color: #F6F6F6 !important
+
+.bloque-texto-g.color-secundario
+  background-color: #F98473 !important 
+.bloque-texto-g
+  justify-content: flex-start !important
+.m-left
+  left: 50% !important  
+  
+.row-card-color-1
+  background-color: #FEE6E3   
+  border-radius: 10px
+  padding: 2em 
+  padding-top: 4em
+
+.img-margin
+  margin-bottom: -55px  

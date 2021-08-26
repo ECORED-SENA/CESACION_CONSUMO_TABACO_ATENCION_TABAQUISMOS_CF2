@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="66" height="66" viewBox="0 0 66 66">
+  <g id="Grupo_58786" data-name="Grupo 58786" transform="translate(293.752 -613.918)">
+    <circle id="Elipse_5309" data-name="Elipse 5309" cx="33" cy="33" r="33" transform="translate(-293.752 613.918)" fill="#fff"/>
+    <g id="Grupo_58796" data-name="Grupo 58796">
+      <g id="Grupo_58793" data-name="Grupo 58793">
+        <rect id="Rectángulo_6584" data-name="Rectángulo 6584" width="22.716" height="42.501" rx="1.832" transform="translate(-282.369 626.667)" fill="#6dc4dc"/>
+        <g id="Grupo_58792" data-name="Grupo 58792">
+          <g id="Grupo_58786-2" data-name="Grupo 58786">
+            <rect id="Rectángulo_6585" data-name="Rectángulo 6585" width="5.862" height="10.259" rx="2.748" transform="translate(-269.179 629.598)" fill="#fff"/>
+            <path id="Trazado_105039" data-name="Trazado 105039" d="M-266.431,629.6h.366a2.748,2.748,0,0,1,2.748,2.748v2.381h-5.862v-2.381A2.748,2.748,0,0,1-266.431,629.6Z" fill="#ffaf2f"/>
+          </g>
+          <g id="Grupo_58787" data-name="Grupo 58787">
+            <rect id="Rectángulo_6586" data-name="Rectángulo 6586" width="5.862" height="10.259" rx="2.748" transform="translate(-278.705 629.598)" fill="#fff"/>
+            <path id="Trazado_105040" data-name="Trazado 105040" d="M-275.957,629.6h.366a2.748,2.748,0,0,1,2.748,2.748v2.381H-278.7v-2.381A2.748,2.748,0,0,1-275.957,629.6Z" fill="#ffaf2f"/>
+          </g>
+          <g id="Grupo_58788" data-name="Grupo 58788">
+            <rect id="Rectángulo_6587" data-name="Rectángulo 6587" width="5.862" height="10.259" rx="2.748" transform="translate(-269.179 642.788)" fill="#fff"/>
+            <path id="Trazado_105041" data-name="Trazado 105041" d="M-266.431,642.788h.366a2.748,2.748,0,0,1,2.748,2.748h0v2.382h-5.862v-2.382a2.748,2.748,0,0,1,2.748-2.748Z" fill="#ffaf2f"/>
+          </g>
+          <g id="Grupo_58789" data-name="Grupo 58789">
+            <rect id="Rectángulo_6588" data-name="Rectángulo 6588" width="5.862" height="10.259" rx="2.748" transform="translate(-278.705 642.788)" fill="#fff"/>
+            <path id="Trazado_105042" data-name="Trazado 105042" d="M-275.957,642.788h.366a2.748,2.748,0,0,1,2.748,2.748h0v2.382H-278.7v-2.382a2.748,2.748,0,0,1,2.748-2.748Z" fill="#ffaf2f"/>
+          </g>
+          <g id="Grupo_58790" data-name="Grupo 58790">
+            <rect id="Rectángulo_6589" data-name="Rectángulo 6589" width="5.862" height="10.259" rx="2.748" transform="translate(-269.179 655.978)" fill="#fff"/>
+            <path id="Trazado_105043" data-name="Trazado 105043" d="M-266.431,655.978h.366a2.748,2.748,0,0,1,2.748,2.748h0v2.382h-5.862v-2.382a2.748,2.748,0,0,1,2.748-2.748Z" fill="#ffaf2f"/>
+          </g>
+          <g id="Grupo_58791" data-name="Grupo 58791">
+            <rect id="Rectángulo_6590" data-name="Rectángulo 6590" width="5.862" height="10.259" rx="2.748" transform="translate(-278.705 655.978)" fill="#fff"/>
+            <path id="Trazado_105044" data-name="Trazado 105044" d="M-275.957,655.978h.366a2.748,2.748,0,0,1,2.748,2.748h0v2.382H-278.7v-2.382a2.748,2.748,0,0,1,2.748-2.748Z" fill="#ffaf2f"/>
+          </g>
+        </g>
+      </g>
+      <g id="Grupo_58795" data-name="Grupo 58795">
+        <path id="Trazado_105045" data-name="Trazado 105045" d="M-241.7,669.168h-19.785a1.832,1.832,0,0,1-1.832-1.832V644.254l1.466-3.664v-.733h20.518v.733l1.465,3.664v23.082A1.832,1.832,0,0,1-241.7,669.168Z" fill="#e23e31"/>
+        <circle id="Elipse_5325" data-name="Elipse 5325" cx="8.793" cy="8.793" r="8.793" transform="translate(-260.386 646.452)" fill="#fffcf7"/>
+        <g id="Grupo_58794" data-name="Grupo 58794">
+          <path id="Trazado_105046" data-name="Trazado 105046" d="M-246.463,653.047h-2.931v-2.931h-4.4v2.931h-2.931v4.4h2.931v2.931h4.4v-2.931h2.931Z" fill="#ffaf2f"/>
+          <rect id="Rectángulo_6591" data-name="Rectángulo 6591" width="24.915" height="6.595" rx="0.916" transform="translate(-264.049 633.995)" fill="#ffaf2f"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

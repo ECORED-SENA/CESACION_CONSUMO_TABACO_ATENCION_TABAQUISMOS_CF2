@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="190" height="84" viewBox="0 0 190 84">
+  <g id="Grupo_60540" data-name="Grupo 60540" transform="translate(-705 -1760)">
+    <path id="Trazado_109302" data-name="Trazado 109302" d="M-4290.641-9890.623h149.819" transform="translate(5016.141 11700)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="5"/>
+    <path id="Trazado_109303" data-name="Trazado 109303" d="M-4290.641-9890.623h149.819" transform="translate(5016.141 11681)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="5"/>
+    <path id="Trazado_109304" data-name="Trazado 109304" d="M-4290.641-9890.623h149.819" transform="translate(5016.141 11655)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="5"/>
+    <g id="Grupo_59799" data-name="Grupo 59799">
+      <g id="Grupo_58802" data-name="Grupo 58802">
+        <ellipse id="Elipse_5330" data-name="Elipse 5330" cx="76.5" cy="9" rx="76.5" ry="9" transform="translate(724 1825)" fill="#e8e8e8"/>
+        <g id="Grupo_58799" data-name="Grupo 58799" transform="translate(1184.042 1078.77)">
+          <path id="Trazado_105047" data-name="Trazado 105047" d="M-400.848,711.888l-4.865-1.817-10.185,1.817v33.6c0,3.01,8.6,5.45,19.2,5.45s19.2-2.44,19.2-5.45v-33.6Z" transform="translate(11.618 7.702)" fill="#f98473"/>
+          <ellipse id="Elipse_5326" data-name="Elipse 5326" cx="19.201" cy="5.449" rx="19.201" ry="5.449" transform="translate(-404.279 714.14)" fill="#d36f6a"/>
+          <path id="Trazado_105048" data-name="Trazado 105048" d="M-368.355,693.887l-4.865-1.817-10.185,1.817V752.2c0,3.01,8.6,5.45,19.2,5.45s19.2-2.44,19.2-5.45V693.887Z" transform="translate(23.74 0.987)" fill="#afafaf"/>
+          <path id="Trazado_105050" data-name="Trazado 105050" d="M19.2,0c10.6,0,19.2,2.44,19.2,5.449S29.805,10.9,19.2,10.9,0,8.458,0,5.449,8.6,0,19.2,0Z" transform="translate(-359.665 689.425)" fill="#8c8888"/>
+          <path id="Trazado_105049" data-name="Trazado 105049" d="M-431.993,723.888l-4.865-1.817-10.184,1.817v17.125c0,3.01,8.6,5.45,19.2,5.45s19.2-2.44,19.2-5.45V723.888Z" transform="translate(0 12.178)" fill="#afafaf"/>
+          <ellipse id="Elipse_5328" data-name="Elipse 5328" cx="19.201" cy="5.449" rx="19.201" ry="5.449" transform="translate(-447.042 730.617)" fill="#9f9c9c"/>
+        </g>
+        <rect id="Rectángulo_6593" data-name="Rectángulo 6593" width="190" height="84" transform="translate(705 1760)" fill="none"/>
+      </g>
+      <rect id="Rectángulo_6635" data-name="Rectángulo 6635" width="2" height="29" rx="1" transform="translate(814 1804)" fill="#fff" opacity="0.36"/>
+    </g>
+  </g>
+</svg>

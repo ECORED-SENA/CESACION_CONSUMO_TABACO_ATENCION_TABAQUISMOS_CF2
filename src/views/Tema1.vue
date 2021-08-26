@@ -4,8 +4,7 @@
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5  
     .titulo-principal(data-aos="fade-left")
       .titulo-principal__numero
-        span
-          i.fas.fa-info
+        span 1
       h1 Tabaquismo, una enfermedad 
     p(data-aos="slide-down") El tabaquismo es uno de los principales factores de riesgo prevenible para las enfermedades no transmisibles, se considera una enfermedad adictiva, resultado del consumo regular de productos del tabaco, que requiere con frecuencia de múltiples intentos para dejar de fumar. Actualmente la dependencia al tabaco se reconoce como un “trastorno mental y del comportamiento” tanto en Clasificación Internacional de Enfermedades (CIE-10), como en el Manual de Diagnóstico y Estadísticas de la Asociación Americana de Psiquiatría (DSM-IV), por lo que es importante reconocer esta afección y registrarla en la historia clínica de los pacientes consumidores de productos del tabaco.  
 
@@ -180,7 +179,7 @@
       .col-lg-8 
         p(data-aos="fade-down-left") Los beneficios de abandonar el consumo de tabaco se hacen evidentes inmediatamente, generando un impacto positivo sobre la salud, calidad de vida y situación económica de las personas, además de los efectos positivos sobre el entorno de las personas que conviven con el fumador. Dejar de fumar antes de los 40 años disminuye el riesgo de muerte asociada al tabaquismo en un 90%. 
         .cajon.color-primario.p-4(data-aos="fade-up-left")
-          p Existen tratamientos efectivos para el tratamiento del tabaquismo, no obstante, los índices de abordaje del tabaquismo en el ámbito del cuidado primario siguen siendo muy bajos. Un estudio realizado en Chile, (Alcántara–Gómez et al, 2016), reportó que solamente el 43,7% de los pacientes atendidos en un escenario de atención primaria fue evaluado sobre el consumo de tabaco, y del total de fumadores, solo al 37,1% se le aconsejó dejar de fumar. 
+          p.mb-0 Existen tratamientos efectivos para el tratamiento del tabaquismo, no obstante, los índices de abordaje del tabaquismo en el ámbito del cuidado primario siguen siendo muy bajos. Un estudio realizado en Chile, (Alcántara–Gómez et al, 2016), reportó que solamente el 43,7% de los pacientes atendidos en un escenario de atención primaria fue evaluado sobre el consumo de tabaco, y del total de fumadores, solo al 37,1% se le aconsejó dejar de fumar. 
 
     p.mt-5(data-aos="slide-down") Es por este motivo surge la necesidad de fortalecer los sistemas de salud para alcanzar una adecuada atención del tabaquismo en los diferentes entornos a partir de una oportuna identificación de personas consumidoras de tabaco o productos derivados y la aplicación de intervenciones efectivas para la cesación del consumo.
 
@@ -227,9 +226,6 @@
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto
             p Anexo. abece efectos salud tabaco
-  
-
-
 
 </template>
 
