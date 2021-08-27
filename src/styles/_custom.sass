@@ -230,6 +230,7 @@
   padding-left: 0px
   padding-right: 0px
   padding-top: 1em;
+  cursor: pointer  
 
 .back.generic
   background-color: #FEE6E3
@@ -237,6 +238,7 @@
   border-right: 15px solid white
   padding-left: 0px
   padding-right: 0px
+  cursor: pointer
 
 .run-right
   animation: run-right 5.0s
@@ -319,3 +321,14 @@
     transform: scale(1.1)     
   100%  
     transform: scale(1.0)    
+
+.zoom
+  animation: zoom 3.0s
+  animation-iteration-count: infinite
+@keyframes zoom
+  0%  
+    opacity:(85%)
+  50%  
+    opacity:(100%)     
+  100%  
+    opacity:(85%)       

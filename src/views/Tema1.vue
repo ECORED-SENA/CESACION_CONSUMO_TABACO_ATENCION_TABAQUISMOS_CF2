@@ -53,20 +53,20 @@
     .row.justify-content-center.align-items-center.mt-5       
       .col-lg-4(data-aos="fade-down-right")         
         .contenedor
-          img(src='@/assets/ilustraciones/img2.svg' )
-          img.top(src='@/assets/ilustraciones/img_h1.svg')
+          img(src='@/assets/ilustraciones/img_h1.svg' )
+          img.top(src='@/assets/ilustraciones/img2.svg')
           
 
       .col-lg-4(data-aos="fade-down")
         .contenedor
-          img(src='@/assets/ilustraciones/img3.svg' @mouseover="mostrarIndicador = false")
+          img(src='@/assets/ilustraciones/img_h2.svg' @mouseover="mostrarIndicador = false")
           .indicador--click(v-if="mostrarIndicador")          
-          img.top(src='@/assets/ilustraciones/img_h2.svg')
+          img.top(src='@/assets/ilustraciones/img3.svg')
 
       .col-lg-4(data-aos="fade-down-left")
         .contenedor
-          img(src='@/assets/ilustraciones/img4.svg')
-          img.top(src='@/assets/ilustraciones/img_h3.svg')            
+          img(src='@/assets/ilustraciones/img_h3.svg')
+          img.top(src='@/assets/ilustraciones/img4.svg')            
 
     SlyderB(:datos="datosSlyder")(data-aos="flip-down")
 
