@@ -12,7 +12,7 @@
       .col-lg-10.card-bg-1
         .row.justify-content-center.align-items-center  
           .col-lg-7.my-3
-            p.ml.mb-0 El tabaquismo es una enfermedad crónica que se puede presentar con múltiples períodos de recaída, como consecuencia de la potente adicción física que genera la nicotina, sustancia considerada aún más adictiva que la cocaína y la heroína, razón por la cual no es tan difícil para las personas suspender su consumo. Afortunadamente, el tabaquismo es una enfermedad prevenible, tratable y recuperable.  	  
+            p.ml.mb-0 El tabaquismo es una enfermedad crónica que se puede presentar con múltiples períodos de recaída, como consecuencia de la potente adicción física que genera la nicotina, sustancia considerada aún más adictiva que la cocaína y la heroína, razón por la cual es tan difícil para las personas suspender su consumo. Afortunadamente, el tabaquismo es una enfermedad prevenible, tratable y recuperable.  	  
           .col-lg-5
             img.img-t.img-a(src='@/assets/ilustraciones/img1.jpg', alt='')
     p.mt-5.text-center(data-aos="slide-down") De acuerdo con la Organización Panamericana de la Salud (2009):
@@ -51,22 +51,39 @@
         p.mb-0.text-center Dependencia
 
     .row.justify-content-center.align-items-center.mt-5       
-      .col-lg-4(data-aos="fade-down-right")         
+      .col-lg-4.d-none.d-lg-block(data-aos="fade-down-right")         
         .contenedor
           img(src='@/assets/ilustraciones/img_h1.svg' )
-          img.top(src='@/assets/ilustraciones/img2.svg')
-          
+          img.top(src='@/assets/ilustraciones/img2.svg')          
 
-      .col-lg-4(data-aos="fade-down")
+      .col-lg-4.d-none.d-lg-block(data-aos="fade-down")
         .contenedor
           img(src='@/assets/ilustraciones/img_h2.svg' @mouseover="mostrarIndicador = false")
           .indicador--click(v-if="mostrarIndicador")          
           img.top(src='@/assets/ilustraciones/img3.svg')
 
-      .col-lg-4(data-aos="fade-down-left")
+      .col-lg-4.d-none.d-lg-block(data-aos="fade-down-left")
         .contenedor
           img(src='@/assets/ilustraciones/img_h3.svg')
-          img.top(src='@/assets/ilustraciones/img4.svg')            
+          img.top(src='@/assets/ilustraciones/img4.svg')  
+
+    .row.justify-content-center.align-items-center     
+      .col-8.d-block.d-lg-none(data-aos="fade-down-right")         
+        .contenedor
+          img(src='@/assets/ilustraciones/img_h1.svg' )
+          img.top(src='@/assets/ilustraciones/img2.svg')                      
+
+    .row.justify-content-center.align-items-center     
+      .col-8.d-block.d-lg-none.p-0.m-0(data-aos="fade-down-right")         
+        .contenedor
+          img(src='@/assets/ilustraciones/img_h2.svg' )
+          img.top(src='@/assets/ilustraciones/img3.svg') 
+
+    .row.justify-content-center.align-items-center     
+      .col-8.d-block.d-lg-none(data-aos="fade-down-right")         
+        .contenedor
+          img(src='@/assets/ilustraciones/img_h3.svg' )
+          img.top(src='@/assets/ilustraciones/img4.svg')           
 
     SlyderB(:datos="datosSlyder")(data-aos="flip-down")
 
@@ -89,7 +106,7 @@
 
     .row.justify-content-center.align-items-center.mt-5(data-aos="slide-down")       
       .col-lg-6
-        p.text-center A continuación se presentan el esquema de impacto de la nicotina en el cerebro, uno tras la vía dopaminérgica y el otro por vía noradrenérgica: 
+        p.text-center A continuación se presenta el esquema de impacto de la nicotina en el cerebro, uno tras la vía dopaminérgica y el otro por vía noradrenérgica: 
 
     .row.justify-content-center.align-items-center.mt-5(data-aos="fade-down")       
       .col-lg-8
@@ -103,7 +120,7 @@
     p.mt-5(data-aos="slide-down") Cuando una persona deja de fumar, se produce una respuesta bioquímica muy intensa a nivel de la vía noradrenérgica, como respuesta al descenso de los niveles de nicotina, manifestándose los signos del síndrome de abstinencia.      
 
     .row.justify-content-center.align-items-center.mt-5(data-aos="fade-down")       
-      .col-lg-10.card-bg-3.p-2
+      .col-lg-10.card-bg-3-1.p-2
         p.mb-0.text-center A continuación, se listan los síntomas de este síndrome que son los responsables de las recaídas frecuentes en el proceso de cesación:	 
 
     .row.justify-content-center.align-items-center.mt-5      
@@ -163,13 +180,14 @@
                   span 10
                 | Síntomas similares a la gripe 
 
-        p.mt-5(data-aos="slide-down") Estos síntomas son más intensos en las primeras 24 a 48 horas después de suspender el consumo de tabaco, aunque van disminuyendo gradualmente en intensidad durante las siguientes 2 o 3 semanas. En general, después de los 14 días, los síntomas del síndrome de abstinencia son menos intensos, por lo que una vez el paciente logra superar la barrera de los 14 días sin consumo de tabaco, la posibilidad de presentar síndrome de abstinencia es mucho menor, como se observa en la figura 1. 
+        p.mt-5(data-aos="slide-down") Estos síntomas son más intensos en las primeras 24 a 48 horas después de suspender el consumo de tabaco, aunque van disminuyendo gradualmente en intensidad durante las siguientes 2 o 3 semanas. En general, después de los 14 días, los síntomas del síndrome de abstinencia son menos intensos, por lo que una vez el paciente logra superar la barrera de los 14 días sin consumo de tabaco, la posibilidad de presentar síndrome de abstinencia es mucho menor, como se observa en la siguiente figura. 
 
-        .BorTit.mt-5(data-aos="fade-down")  Base de superior masculina         
+        .BorTit.mt-5(data-aos="fade-down") Figura 1.  Evolución del síndrome de abstinencia.       
         img.mt-4.img-t.img-a(data-aos="fade-down")(src='@/assets/ilustraciones/img11.svg', alt='')
         figcaption.mt-3 Nota. Organización Panamericana de la Salud (2017). Taller cesación de tabaco 2017.  
         p.mt-5(data-aos="slide-down") Es importante conocer la evolución del síndrome de abstinencia, para poder informar a los pacientes, tranquilizarlos y tomar las medidas anticipatorias necesarias.  
 
+    img.img-t.img-a.mt-5(src='@/assets/ilustraciones/hr-before-h2.svg', alt='')     
     #t_1_4.titulo-segundo.mt-5(data-aos="slide-right")
       .h4 1.4  Beneficios de la cesación del tabaco y productos derivados   
 
@@ -181,7 +199,7 @@
         .cajon.color-primario.p-4(data-aos="fade-up-left")
           p.mb-0 Existen tratamientos efectivos para el tratamiento del tabaquismo, no obstante, los índices de abordaje del tabaquismo en el ámbito del cuidado primario siguen siendo muy bajos. Un estudio realizado en Chile, (Alcántara–Gómez et al, 2016), reportó que solamente el 43,7% de los pacientes atendidos en un escenario de atención primaria fue evaluado sobre el consumo de tabaco, y del total de fumadores, solo al 37,1% se le aconsejó dejar de fumar. 
 
-    p.mt-5(data-aos="slide-down") Es por este motivo surge la necesidad de fortalecer los sistemas de salud para alcanzar una adecuada atención del tabaquismo en los diferentes entornos a partir de una oportuna identificación de personas consumidoras de tabaco o productos derivados y la aplicación de intervenciones efectivas para la cesación del consumo.
+    p.mt-5(data-aos="slide-down") Es por este motivo que surge la necesidad de fortalecer los sistemas de salud para alcanzar una adecuada atención del tabaquismo en los diferentes entornos a partir de una oportuna identificación de personas consumidoras de tabaco o productos derivados y la aplicación de intervenciones efectivas para la cesación del consumo.
 
     p.mt-5(data-aos="slide-down") En la siguiente tabla 1 se encuentran los principales beneficios para la salud de dejar de consumir tabaco o sus derivados.                  
 
@@ -190,42 +208,42 @@
       table
         caption Nota. Adaptada de Organización Mundial de la Salud (2019).
         tr.table-bg
-          td.text-center.text-white Tiempo desde que se deja de fumar
-          td.text-center.text-white Beneficios para la salud
+          td.text-center.text-white #[b Tiempo desde que se deja de fumar]
+          td.text-center.text-white #[b Beneficios para la salud]
         tr
-          td.text-center 20 minutos
+          td.text-center #[b 20 minutos]
           td.t-border Descienden la frecuencia cardíaca y presión arterial
         tr
-          td.text-center 12 horas 
+          td.text-center #[b 12 horas ]
           td.t-border El nivel de monóxido de carbono en la sangre desciende a lo normal         
         tr
-          td.text-center 2 – 12 semanas 
+          td.text-center #[b 2 – 12 semanas ]
           td.t-border Mejora la circulación y aumenta la función pulmonar
         tr
-          td.text-center 1 -9 meses 
+          td.text-center #[b 1 - 9 meses ]
           td.t-border Disminuyen la tos y la disnea  
         tr
-          td.text-center 1 año 
+          td.text-center #[b 1 año ]
           td.t-border El riesgo de padecer enfermedad coronaria es cerca de la mitad del riesgo de un fumador         
         tr
-          td.text-center 5 años 
+          td.text-center #[b 5 años ]
           td.t-border De 5 a 15 años después de dejar de fumar, el riesgo de sufrir accidentes cerebrovasculares se reduce al riesgo de un no fumador
         tr
-          td.text-center 10 años 
+          td.text-center #[b 10 años ]
           td.t-border El riesgo de padecer cáncer de pulmón desciende a cerca de la mitad del riesgo de un fumador y disminuye el riesgo de padecer cáncer de boca, garganta, esófago, vejiga urinaria, cérvix y páncreas.  
         tr
-          td.text-center 15 años 
+          td.text-center #[b 15 años ]
           td.t-border El riesgo de padecer cardiopatía coronaria es igual al de un no fumador.                            
 
     .row.justify-content-center.align-items-center.card-bg-3.mt-5.p-4(data-aos="slide-down")    
       .col-lg-8
-        p.mb-0.ml Para profundizar en los beneficios de la cesación del tabaco y productos derivados realizar la lectura de ABECÉ efectos en la salud por el consumo de tabaco del Ministerio de Salud  
+        p.mb-0.ml Para profundizar en los beneficios de la cesación del tabaco y productos derivados, realizar la lectura de ABECÉ efectos en la salud por el consumo de tabaco del Ministerio de Salud.  
       .col-lg-4
         a.anexo(:href="obtenerLink('/downloads/abece-efectos-salud-tabaco.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto
-            p Anexo. abece efectos salud tabaco
+            p #[b Anexo.] ABECÉ efectos en la salud por el consumo de tabaco.
 
 </template>
 
@@ -240,9 +258,9 @@ export default {
     mostrarIndicador: true,
     datosSlyder: [
       {
-        titulo: 'Dependencia física:',
+        titulo: 'Dependencia física',
         texto:
-          'Corresponde a un período de neuro-adaptación ocasionado por la administración repetida de una sustancia (nicotina), generando la necesidad de continuar su consumo, para evitar los síntomas generados por su privación (síndrome de abstinencia). <br><br>El consumo de la sustancia puede generar un doble refuerzo conductual, que puede ser positivo o negativo:<br><br>●  Refuerzo positivo: Fumar por los efectos positivos de la droga (nicotina)<br>●  Refuerzo negativo: Fumar para evitar los síntomas de abstinencia.<br>',
+          'Corresponde a un período de neuro-adaptación ocasionado por la administración repetida de una sustancia (nicotina), generando la necesidad de continuar su consumo, para evitar los síntomas generados por su privación (síndrome de abstinencia). <br><br>El consumo de la sustancia puede generar un doble refuerzo conductual, que puede ser positivo o negativo:<br><br>●  Refuerzo positivo: fumar por los efectos positivos de la droga (nicotina).<br>●  Refuerzo negativo: fumar para evitar los síntomas de abstinencia.<br>',
         imagen: require('@/assets/ilustraciones/img5.png'),
       },
       {
@@ -254,7 +272,7 @@ export default {
       {
         titulo: 'Dependencia social',
         texto:
-          '● Hace referencia al refuerzo del consumo de la sustancia a partir de estímulos sociales.<br>Presión de pares (inicio y mantenimiento del consumo).<br>●  Consumo de la sustancia como método de aceptación social.<br>●  Entorno favorecedor: padres y modelos fumadores.',
+          '● Hace referencia al refuerzo del consumo de la sustancia a partir de estímulos sociales.<br>●  Presión de pares (inicio y mantenimiento del consumo).<br>●  Consumo de la sustancia como método de aceptación social.<br>●  Entorno favorecedor: padres y modelos fumadores.',
         imagen: require('@/assets/ilustraciones/img7.png'),
       },
     ],

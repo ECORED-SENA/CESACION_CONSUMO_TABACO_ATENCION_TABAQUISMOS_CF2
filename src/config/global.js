@@ -128,11 +128,7 @@ export default {
     },
     {
       referencia:
-        'Harpersbazaar. (2019). La ropa que eliges afecta a tu estado de ánimo y cerebro, según expertos. En arpersbazaar.mx.',
-    },
-    {
-      referencia:
-        'Cañas,  A., Alba,  L. H. y Becerra,  N. (2014). Eficacia y seguridad del uso de medicamentos para la cesación de la adicción al tabaco: revisión de guías de práctica clínica. Rev Salud Pública,16(5),772-85. ',
+        'Cañas,  A., Alba,  L. H. y Becerra,  N. (2014). Eficacia y seguridad del uso de medicamentos para la cesación de la adicción al tabaco: revisión de guías de práctica clínica. Rev. Salud Pública,16(5), 772-85. ',
     },
     {
       referencia:
@@ -144,7 +140,7 @@ export default {
     },
     {
       referencia:
-        'Ministerio de Salud y Protección Social de Colombia. (2020).  Directrices para desarrollar programas para la cesación del consumo de tabaco y atención del tabaquismo. MinSalud. ',
+        'Ministerio de Salud y Protección Social de Colombia. (2020).  Directrices para promover la cesación del consumo de tabaco y atención del tabaquismo. MinSalud. ',
       link:
         'https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/VS/PP/ENT/directrices-cesacion-consumo-atencion-tabaco.pdf',
     },
@@ -153,34 +149,35 @@ export default {
         'Ministry of Health. (2014). The New Zealand Guidelines for Helping People to Stop Smoking.',
     },
     {
+      referencia:
+        'Organización Mundial de la Salud. (2017). Informe OMS sobre la epidemia mundial de tabaquismo, 2017. OMS. ',
+      link:
+        'https://apps.who.int/iris/bitstream/handle/10665/258599/WHO-NMH-PND-17.4-spa.pdf;jsessionid=19C3DE0F7C6E20DA3240C4E1807FB393?sequence=1',
+    },
+    {
       referencia: 'Organización Mundial de la Salud. (2018). Tabaco. OMS. ',
       link: 'https://www.who.int/es/news-room/fact-sheets/detail/tobacco',
     },
     {
       referencia:
-        'Organización Mundial de la Salud. (2017). Informe OMS sobre la epidemia Mundial de tabaquismo, 2017. OMS.',
+        'Organización Mundial de la Salud. (2019). Los efectos benéficos principales de dejar de fumar. OMS. ',
       link:
-        'https://apps.who.int/iris/bitstream/handle/10665/258599/WHO-NMH-PND-17.4-spa.pdf;jsessionid=19C3DE0F7C6E20DA3240C4E1807FB393?sequence=1',
+        'https://www.who.int/es/news-room/q-a-detail/tobacco-health-benefits-of-smoking-cessation',
     },
     {
       referencia:
-        'Organización Mundial de la Salud. (2019). Los efectos benéficos principales de dejar de fumar. OMS.',
-      link: 'https://www.who.int/tobacco/quitting/benefits/es/',
-    },
-    {
-      referencia:
-        'Organización Panamericana de la Salud (2017). Informe Quinquenal 2013 - 2017 del director de la Oficina Sanitaria Panamericana. OPS.',
-      link: 'https://www.paho.org/annual-report-2017/Espanol.html',
-    },
-    {
-      referencia:
-        'Organización Panamericana de la Salud (2009). Manual Nacional de Abordaje del Tabaquismo en el Primer Nivel de Atención. Organización Mundial de la Salud.',
+        'Organización Panamericana de la Salud (2009). Manual Nacional de Abordaje del Tabaquismo en el Primer Nivel de Atención. Organización Mundial de la Salud. ',
       link:
         'https://www.paho.org/es/documentos/manual-nacional-abordaje-tabaquismo-primer-nivel-atencion',
     },
     {
       referencia:
-        'Organización Panamericana de la Salud (2020). Herramientas para aplicar las intervenciones breves de las 5A y las 5R para tratar el consumo de tabaco a nivel de la atención primaria. OPS.',
+        'Organización Panamericana de la Salud (2017). Informe Quinquenal 2013 - 2017 del Director de la Oficina Sanitaria Panamericana. OPS. ',
+      link: 'https://www.paho.org/annual-report-2017/Espanol.html',
+    },
+    {
+      referencia:
+        'Organización Panamericana de la Salud (2020). Herramientas para aplicar las intervenciones breves de las 5A y las 5R para tratar el consumo de tabaco a nivel de la atención primaria. OPS. ',
       link:
         'https://iris.paho.org/bitstream/handle/10665.2/52793/9789275322451_spa.pdf?sequence=1&isAllowed=y',
     },
@@ -189,12 +186,12 @@ export default {
     {
       termino: 'Abstinencia/Síndrome de abstinencia',
       significado:
-        'Conjunto de síntomas que se presentan al suspender el consumo de productos de tabaco. Algunos de los síntomas generados son: ansiedad, irritabilidad, dolor de cabeza, temblor, trastornos del sueño y deseo imperioso de consumir cigarrillos u otras fuentes de nicotina (Ministerio de Salud, 2020).',
+        'Conjunto de síntomas que se presentan al suspender el consumo de productos de tabaco. Algunos de los síntomas generados son: ansiedad, irritabilidad, dolor de cabeza, temblor, trastornos del sueño y deseo imperioso de consumir cigarrillos u otras fuentes de nicotina. (Ministerio de Salud, 2020).',
     },
     {
       termino: 'Intervención',
       significado:
-        'Acción o estrategia dirigida a obtener resultados en el marco del tratamiento de la dependencia tabáquica (Ministerio de Salud, 2020).',
+        'Acción o estrategia dirigida a obtener resultados en el marco del tratamiento de la dependencia tabáquica. (Ministerio de Salud, 2020).',
     },
     {
       termino: 'Consejería',
@@ -210,7 +207,7 @@ export default {
   complementario: [
     {
       texto:
-        'Fiore,  M. C, Jaén,  C. R., Baker, T. B. y Bailey W. C. (2008). Treating tobacco use and dependence: 2008 update. Clinical practice guideline. Rockville, MD: U.S. Department of Health and Human Services. Public Health Service. NCBI. ',
+        'Fiore,  M. C., Jaén,  C. R., Baker, T. B. y Bailey W. C. (2008). Treating tobacco use and dependence: 2008 update. Clinical practice guideline. Rockville, MD: U.S. Department of Health and Human Services. Public Health Service. NCBI. ',
       tipo: 'Guía de práctica clínica',
       descarga: '/downloads/Guia_de_practica_clinica.pdf',
     },
@@ -231,13 +228,13 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Yolanda Sandoval',
+        nombre: 'Yolanda Inés Sandoval Gil',
         cargo: 'Profesional especializado',
         centro:
           'Ministerio de Salud - Subdirección de enfermedades no transmisibles',
       },
       {
-        nombre: 'Giovanna Andrea',
+        nombre: 'Giovanna Andrea Escobar Ospina',
         cargo: 'Diseñadora Instruccional',
         centro: 'Regional Antioquia - Centro de Servicios de Salud',
       },
@@ -272,13 +269,60 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
+        nombre: 'Adriana Marcela Suárez Eljure',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Gilberto Junior Rodriguez Rodriguez',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Jessica Moreno Realpe',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'María Carolina Tamayo López',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Oleg Litvin',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Wilson Andrés Arenales Cáceres',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Zuleidy Maria Ruiz Torres',
+        cargo: 'Producción audiovisual',
+        centro: 'Centro de Comercio y Servicios Regional - Tolima',
+      },
+      {
         nombre: 'Edward Leonardo Pico Cabra',
         cargo: 'Desarrollo Front-End',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Andrés Mauricio Santaella Ochoa',
+        cargo: 'Soporte front-end',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Jenny Paola Montillo Gélvez',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',

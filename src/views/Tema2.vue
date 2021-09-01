@@ -8,7 +8,7 @@
       h1 Intervenciones basadas en la evidencia para la atención del tabaquismo
     .row.justify-content-center.align-items-center.mt-5(data-aos="flip-down") 
       .col-lg-5
-        img.img-t.img-a(src='@/assets/ilustraciones/img13.png', alt='')           
+        img.img-t.img-a.my-3(src='@/assets/ilustraciones/img13.png', alt='')           
       .col-lg-7
         p(data-aos="slide-down") Alrededor del 70% de los consumidores de tabaco manifiestan su deseo de dejar de fumar y un 40% lo intenta cada año, solamente un 3% puede mantenerse libre de consumo, en contraste con el 30% que tiene la posibilidad de lograrlo con el tratamiento de cesación tabáquica adecuado. 
         .cajon.color-primario.p-4(data-aos="fade-up-left")
@@ -37,12 +37,12 @@
       .col-lg-8
         p.mb-0.ml Para profundizar en las intervenciones, se invita a realizar la lectura de: Las directrices para desarrollar programas para la cesación del consumo de tabaco y atención del tabaquismo, publicadas por el Ministerio de Salud y Protección Social de Colombia. (2020).
       .col-lg-4
-        a.anexo(:href="obtenerLink('/downloads/Anexo_CF02_Diferentes_modelos_de_intervencion_breve.pptx')" target="_blank")
+        a.my-4.anexo(:href="obtenerLink('/downloads/directrices-cesacion-consumo-atencion-tabaco.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto
-            p.mb-0 Anexo. Directrices para promover la cesación del consumo de tabaco y atención del tabaquismo
-          
+            p.mb-0 #[b Anexo.] Directrices para promover la cesación del consumo de tabaco y atención del tabaquismo.
+    img.img-t.img-a.mt-5(src='@/assets/ilustraciones/hr-before-h2.svg', alt='')           
     #t_2_1.titulo-segundo.mt-5(data-aos="slide-right")
       .h4 2.1  Consejería
     p.mt-5(data-aos="slide-down") La consejería se define como una actividad comunicativa que promueve tanto el diálogo entre el fumador y el profesional de la salud como el desarrollo de habilidades para que el fumador suspenda el consumo de tabaco.
@@ -103,8 +103,8 @@
       .col-10
         .bloque-texto-c.color-primario.p-4(data-aos="zoom-in")
           i.fas.fa-quote-right
-          h5.mb-2 Las intervenciones breves, tienen como objetivo que las personas logren avanzar en el proceso de dejar de fumar o vapear e hagan intentos serios para conseguirlo. Deben ser aplicadas en el marco de la consulta y pueden tener una duración de 3 a 10 minutos 
-          span - Ministerio de Salud, 2020
+          h5.mb-2 Las intervenciones breves, tienen como objetivo que las personas logren avanzar en el proceso de dejar de fumar o vapear y hagan intentos serios para conseguirlo. Deben ser aplicadas en el marco de la consulta y pueden tener una duración de 3 a 10 minutos. 
+          span - Ministerio de Salud, 2020.
 
         p.mt-5(data-aos="slide-down") Las intervenciones breves han demostrado una tasa de cesación del 16% frente a la no intervención (OR = 1,9). (Organización Panamericana de la Salud, 2020).
 
@@ -145,13 +145,13 @@
               li 
                 .lista-ol--cuadro__vineta
                   span 1
-                p.title-gray  Modelo de las 3 Aes.
+                p.title-gray  #[b Modelo de las 3 Aes]
 
         p(data-aos="slide-down") Este esquema corresponde a las primeras 3 Aes del modelo de las 5 Aes, esquema de intervención breve para la cesación de tabaco más utilizada. Se denomina así, pues cada uno de los 3 pasos propuestos comienza por la letra A:
 
         .row.justify-content-center.align-items-center.mt-5(data-aos="fade-down-left")
           .col-lg-3.br-1
-            p.mb-0.text-center(data-aos="slide-down") Modelo de las 3 Aes  
+            p.mb-0.text-center(data-aos="slide-down") #[b Modelo de las 3 Aes]  
         .row.justify-content-between.align-items-center.mt-5
           .col-lg-4.mb-5.mb-lg-0.color-row-1(data-aos="fade-down-right")
             #flipper1.flip-container.zoom
@@ -185,47 +185,47 @@
               li 
                 .lista-ol--cuadro__vineta
                   span 2
-                p.title-gray  Modelo de las 5 Aes.
+                p.title-gray  #[b Modelo de las 5 Aes]
 
         p.mb-5(data-aos="slide-down") Este modelo se refiere a la aplicación de los 5 pasos descritos a partir de las 5 Aes:
 
     .row.justify-content-center.align-items-stretch(data-aos="flip-down")
       .col-lg-2.row-card-color.p-0.m-0.d-none.d-lg-block
         img.img-a.img-t.m-0(src="@/assets/ilustraciones/a1.jpg")
-        p.mt-4.mb-0.p-3.text-center Averiguar
+        p.mt-4.mb-0.p-3.text-center #[b Averiguar]
       .col-lg-2.row-card-color.p-0.m-0.d-none.d-lg-block
         img.img-a.img-t.m-0(src="@/assets/ilustraciones/a2.jpg")
-        p.mt-4.mb-0.p-3.text-center Asesorar
+        p.mt-4.mb-0.p-3.text-center #[b Asesorar]
       .col-lg-2.row-card-color.p-0.m-0.d-none.d-lg-block
         img.img-a.img-t.m-0(src="@/assets/ilustraciones/a3.jpg")
-        p.mt-4.mb-0.p-3.text-center Apreciar motivación
+        p.mt-4.mb-0.p-3.text-center #[b Apreciar motivación]
       .col-lg-2.row-card-color.p-0.m-0.d-none.d-lg-block
         img.img-a.img-t.m-0(src="@/assets/ilustraciones/a4.jpg")
-        p.mb-0.p-3.text-center Ayudar a diseñar un plan para dejar de fumar
+        p.mb-0.p-3.text-center #[b Ayudar a diseñar un plan para dejar de fumar]
       .col-lg-2.row-card-color.p-0.m-0.d-none.d-lg-block
         img.img-a.img-t.m-0(src="@/assets/ilustraciones/a5.jpg")
-        p.mt-3.mb-0.p-3.text-center Arreglar un plan de seguimiento
+        p.mt-3.mb-0.p-3.text-center #[b Arreglar un plan de seguimiento]
     
     .row.justify-content-center.align-items-stretch(data-aos="flip-down")
       .col-5.row-card-color.p-0.m-0.row-br.d-block.d-lg-none
         img.img-a.img-t(src="@/assets/ilustraciones/a1.jpg")
-        p.mt-1.mb-0.p-3.text-center Averiguar 
+        p.mt-1.mb-0.p-3.text-center #[b Averiguar] 
       .col-5.row-card-color.p-0.m-0.row-br.d-block.d-lg-none
         img.img-a.img-t(src="@/assets/ilustraciones/a2.jpg")
-        p.mt-1.mb-0.p-3.text-center Asesorar    
+        p.mt-1.mb-0.p-3.text-center #[b Asesorar]    
       .col-5.row-card-color.p-0.m-0.row-br.d-block.d-lg-none
         img.img-a.img-t(src="@/assets/ilustraciones/a3.jpg")
-        p.mt-2.mb-0.p-3.text-center Apreciar motivación    
+        p.mt-2.mb-0.p-3.text-center #[b Apreciar motivación]    
       .col-5.row-card-color.p-0.m-0.row-br.d-block.d-lg-none
         img.img-a.img-t(src="@/assets/ilustraciones/a4.jpg")
-        p.mb-0.p-3.text-center Ayudar a diseñar un plan para dejar de fumar    
+        p.mb-0.p-3.text-center #[b Ayudar a diseñar un plan para dejar de fumar]   
       .col-5.row-card-color.p-0.m-0.row-br.d-block.d-lg-none
         img.img-a.img-t(src="@/assets/ilustraciones/a5.jpg")
-        p.mt-2.mb-0.p-3.text-center Arreglar un plan de seguimiento
+        p.mt-2.mb-0.p-3.text-center #[b Arreglar un plan de seguimiento]
     
     .row.justify-content-center.align-items-center.mt-5
       .col-10      
-        p(data-aos="slide-down") Este modelo corresponde a las denominadas intervenciones intermedias, en el marco de las directrices para la implementación de programas para la atención del tabaquismo (Ministerio de Salud, 2020), que son acciones de intervención breve programada, que deben ofrecer las EPS a través de su red de instituciones prestadoras de servicios de salud, tal como lo establece la Ley 1335 de 2009.
+        p(data-aos="slide-down") Este modelo corresponde a las denominadas #[b intervenciones intermedias], en el marco de las directrices para la implementación de programas para la atención del tabaquismo (Ministerio de Salud, 2020), que son acciones de intervención breve programada, que deben ofrecer las EPS a través de su red de instituciones prestadoras de servicios de salud, tal como lo establece la Ley 1335 de 2009.
 
         .row.justify-content-between.align-items-center.mt-5
           .col-lg-5(data-aos="slide-right")
@@ -233,7 +233,7 @@
               li 
                 .lista-ol--cuadro__vineta
                   span 3
-                p.title-gray Modelo de las 5 Rs 
+                p.title-gray #[b Modelo de las 5 Rs] 
 
         .row.justify-content-center.align-items-center
           .col-lg-7 
@@ -246,7 +246,7 @@
         .bloque-texto-d.color-secundario.p-4.mt-5(data-aos="zoom-in")
           .bloque-texto-d__texto.mb-2
             i.fas.fa-quote-left
-            h3.text-regular Al igual que con el modelo de las “5 Aes” existe evidencia proveniente de estudios clínicos que ratifican la efectividad de la consejería breve motivacional. Un metaanálisis demostró que el incremento de las tasas de cesación fue de 26% (RR= 1,26; IC95% 1,16-1,36) cuando se compara la entrevista motivacional de mayor duración con la consejería breve. Sin embargo, este mismo estudio también encontró un incremento en las tasas de cesación cuando se llevan a cabo intervenciones motivacionales breves comparadas con la no intervención (RR=1,69 IC95% 1,34-2,12; 9 estudios n=3,651) 
+            h3.text-regular Al igual que con el modelo de las “5 Aes” existe evidencia proveniente de estudios clínicos que ratifican la efectividad de la consejería breve motivacional. Un metaanálisis demostró que el incremento de las tasas de cesación fue de 26% (RR = 1,26; IC95% 1,16-1,36) cuando se compara la entrevista motivacional de mayor duración con la consejería breve. Sin embargo, este mismo estudio también encontró un incremento en las tasas de cesación cuando se llevan a cabo intervenciones motivacionales breves comparadas con la no intervención (RR = 1,69 IC 95% 1,34-2,12; 9 estudios n = 3,651). 
             i.fas.fa-quote-right
           .bloque-texto-d__autor 
             .h5.mb-0 - Lindson, Thompson y Begh, 2015
@@ -257,17 +257,17 @@
         p.mt-5(data-aos="fade-down-left") Vale la pena mencionar que este metaanálisis no encontró diferencias respecto al tipo de intervención breve realizada, no obstante, se recomienda que los países adopten un esquema estandarizado para llevar a cabo las intervenciones motivo por el cual se recomienda adoptar el esquema de las “5 R” para los pacientes no motivados.
 
         .cajon.color-secundario.p-4.mt-5(data-aos="fade-up-left")
-          p.mb-0 El modelo de las 5 Rs está diseñada para realizarse en menos de 10 minutos y se utilizan 5 pasos cada uno de los cuales comienzan con la letra “R”:  
+          p.mb-0 El modelo de las 5 Rs está diseñado para realizarse en menos de 10 minutos y se utilizan 5 pasos cada uno de los cuales comienzan con la letra “R”:  
 
     .row.justify-content-center.align-items-center.mt-5(data-aos="fade-down-left")
       .col-lg-3.br-1
-        p.mb-0.text-center(data-aos="slide-down") Modelo de las 5 Rs  
+        p.mb-0.text-center(data-aos="slide-down") #[b Modelo de las 5 Rs]  
     .row.justify-content-center.align-items-center.mt-5
       .col-lg-3.mb-5.mb-lg-0.color-row-1(data-aos="fade-down-right")
         #flipper4.flip-container.zoom
           .flipper.text-center(@click='(e) => flip("#flipper4")')
             .front.Text
-              h2.text-white 1Rs
+              h2.text-white R1
             .back.generic.py-4.px-5
               h4.mb-1 Relevancia        
 
@@ -275,7 +275,7 @@
         #flipper5.flip-container.zoom
           .flipper.text-center(@click='(e) => flip("#flipper5")')
             .front.Text
-              h2.text-white 2Rs
+              h2.text-white R2
             .back.generic.py-4.px-5
               h4.mb-1 Riesgos  
 
@@ -283,34 +283,34 @@
         #flipper6.flip-container.zoom
           .flipper.text-center(@click='(e) => flip("#flipper6")')
             .front.Text
-              h2.text-white 3Rs
+              h2.text-white R3
             .back.generic.py-4.px-5
               h4.mb-1 Recompensas
-    .row.justify-content-center.align-items-center.mt-5
-      .col-lg-3.mb-lg-0.color-row-1(data-aos="fade-down-left")
+    .row.justify-content-center.align-items-center
+      .col-lg-3.mb-5.mb-lg-0.color-row-1(data-aos="fade-down-left")
         #flipper7.flip-container.zoom
           .flipper.text-center(@click='(e) => flip("#flipper7")')
             .front.Text
-              h2.text-white 4Rs
+              h2.text-white R4
             .back.generic.py-4.px-5
               h4.mb-1 Resistencia     
       .col-lg-3.mb-5.mb-lg-0.color-row-1(data-aos="fade-down-left")
         #flipper8.flip-container.zoom
           .flipper.text-center(@click='(e) => flip("#flipper8")')
             .front.Text
-              h2.text-white 5Rs
+              h2.text-white R5
             .back.generic.py-4.px-5
               h4.mb-1 Repetición 
 
     .row.justify-content-center.align-items-center.card-bg-4.mt-5.p-4(data-aos="slide-down")    
       .col-lg-8
-        p.mb-0.ml Para profundizar en los modelos de consejería breve, se invita a consultar: las herramientas para aplicar las intervenciones breves de las 5A y las 5R para tratar el consumo de tabaco a nivel de la atención primaria, publicado por la Organización Panamericana de la Salud (2020)
+        p.mb-0.ml Para profundizar en los modelos de consejería breve, se invita a consultar: las herramientas para aplicar las intervenciones breves de las 5A y las 5R para tratar el consumo de tabaco a nivel de la atención primaria, publicado por la Organización Panamericana de la Salud (2020).
       .col-lg-4
-        a.anexo(:href="obtenerLink('/downloads/herramientas_para_aplicar_las_intervenciones_breves.pdf')" target="_blank")
+        a.my-4.anexo(:href="obtenerLink('/downloads/herramientas_para_aplicar_las_intervenciones_breves.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto
-            p.mb-0 Anexo. Herramientas para aplicar las intervenciones breves de las 5A y las 5R para tratar el consumo de tabaco.
+            p.mb-0 #[b Anexo.] Herramientas para aplicar las intervenciones breves de las 5A y las 5R para tratar el consumo de tabaco.
     .row.justify-content-center.align-items-center.mt-5
       .col-lg-10
         .row.justify-content-between.align-items-center.mt-5
@@ -319,14 +319,14 @@
               li 
                 .lista-ol--cuadro__vineta
                   span 4
-                p.title-gray Modelo del ABC
+                p.title-gray #[b Modelo del ABC]
 
         p(data-aos="slide-down") Este modelo fue desarrollado por un grupo de investigadores de Nueva Zelandia a través de su Guía de Práctica Clínica, (Ministry of Health, 2014) y ha sido adoptado por otros países como Uruguay. 
 
 
     .row.justify-content-center.align-items-center.mt-5(data-aos="slide-up")       
-      .col-lg-6.card-bg-3.p-2
-        p.mb-0.text-center Corresponden a las siguientes acciones:
+      .col-lg-6.card-bg-3-1.p-2
+        p.mb-0.text-center Corresponde a las siguientes acciones:
 
     .row.justify-content-center.align-items-center.mt-5
       .col-lg-1.run-right
@@ -348,7 +348,7 @@
     .row.justify-content-center.align-items-center.mt-5(data-aos="zoom-in-up")       
       .col-lg-8
         img.img-a.img-t(src="@/assets/ilustraciones/img29.svg")
-
+        figcaption.mt-3 Nota. OPS (2017).
     .row.justify-content-center.align-items-center.mt-5(data-aos="slide-right") 
       .col-lg-12
         .list
@@ -359,7 +359,7 @@
             h4.list-color Consejería intensiva 
     .row.justify-content-center.align-items-center.mt-5
       .col-lg-5(data-aos="slide-right") 
-        img.img-a.img-t(src="@/assets/ilustraciones/img30.png")
+        img.img-a.img-t.my-3(src="@/assets/ilustraciones/img30.png")
       .col-lg-7
         p(data-aos="slide-left")  Son esquemas de intervención de mayor duración (más de 10 minutos por sesión) que las intervenciones breves, se pueden realizar en diferentes momentos y son administradas por más de un profesional sanitario (equipo interdisciplinario). En general este tipo de intervenciones se aplica a los pacientes dispuestos a iniciar un proceso para dejar de fumar y que no lograron su objetivo con las intervenciones breves o requieren de un tratamiento multicomponente con un enfoque interdisciplinario.  (Ministerio de Salud, 2020).
 
@@ -372,7 +372,7 @@
           h5.mb-2 Para llevar a cabo este tipo de intervención se requiere que los profesionales de la salud tengan experiencia en el tratamiento de la dependencia tabáquica. Existen también distintos modelos o esquemas de consejería intensiva (entrevista motivacional, identificación de problemas y desarrollo de habilidades en el fumador). 
           span - Lancaster y Stead, 2017.
 
-    p.mt-5(data-aos="slide-down") Las diferentes modalidades de la consejería intensiva corresponden a las denominadas intervenciones avanzadas, en el marco de las directrices para la implementación de programas para la atención del tabaquismo, a continuación, se describen algunas de las modalidades de consejería intensiva
+    p.mt-5(data-aos="slide-down") Las diferentes modalidades de la consejería intensiva corresponden a las denominadas #[b intervenciones avanzadas], en el marco de las directrices para la implementación de programas para la atención del tabaquismo, a continuación, se describen algunas de las modalidades de consejería intensiva:
 
     TabsC.color-acento-contenido.mt-5(data-aos="flip-down")
       .py-3.py-md-4(titulo="Intervención cognitivo – conductual")
@@ -408,7 +408,7 @@
     img.img-t.img-a.mt-5(src='@/assets/ilustraciones/hr-before-h2.svg', alt='')           
 
     #t_2_2.titulo-segundo.mt-5(data-aos="slide-right")
-      .h4 2.2  Terapia farmacológica para la cesación de tabaco 
+      .h4 2.2  Terapia farmacológica
 
     .row.justify-content-center.align-items-center.my-5
       .col-lg-9
@@ -421,7 +421,7 @@
     .tarjeta.tarjeta--azul.p-0.d-none.d-lg-block        
       SlyderA        
         .row.justify-content-center.align-items-center(data-aos="fade-right")       
-          .col-lg-10.card-bg-2.p-0.m-0.d-none.d-lg-block
+          .col-lg-10.card-bg-2-1.p-0.m-0.d-none.d-lg-block
             .row.justify-content-center.align-items-center  
               .col-1.p-0
                 img.img-t.img-a(src='@/assets/ilustraciones/1.svg', alt='')           
@@ -429,7 +429,7 @@
                 p.mb-0 Complemento de la consejería en sus diferentes modalidades para lograr el cambio conductual.
       
         .row.justify-content-center.align-items-center(data-aos="fade-right")       
-          .col-lg-10.card-bg-2.p-0.m-0.d-none.d-lg-block
+          .col-lg-10.card-bg-2-1.p-0.m-0.d-none.d-lg-block
             .row.justify-content-center.align-items-center  
               .col-1.p-0
                 img.img-t.img-a(src='@/assets/ilustraciones/2.svg', alt='')           
@@ -437,7 +437,7 @@
                 p.mb-0 Se utiliza por tiempo limitado, en general 8 a 12 semanas.    
       
         .row.justify-content-center.align-items-center(data-aos="fade-right")       
-          .col-lg-10.card-bg-2.p-0.m-0.d-none.d-lg-block
+          .col-lg-10.card-bg-2-1.p-0.m-0.d-none.d-lg-block
             .row.justify-content-center.align-items-center  
               .col-1.p-0
                 img.img-t.img-a(src='@/assets/ilustraciones/3.svg', alt='')           
@@ -445,7 +445,7 @@
                 p.mb-0 Se debe ofrecer y recomendar a todo fumador que está en etapa de cambio o de preparación para dejar de fumar, en ausencia de contraindicaciones.
       
         .row.justify-content-center.align-items-center(data-aos="fade-right")       
-          .col-lg-10.card-bg-2.p-0.m-0.d-none.d-lg-block
+          .col-lg-10.card-bg-2-1.p-0.m-0.d-none.d-lg-block
             .row.justify-content-center.align-items-center  
               .col-1.p-0
                 img.img-t.img-a(src='@/assets/ilustraciones/4.svg', alt='')           
@@ -453,15 +453,15 @@
                 p.mb-0 Aliviar los síntomas de abstinencia y ayudar a controlar ansias o impulso. 
       
         .row.justify-content-center.align-items-center(data-aos="fade-right")       
-          .col-lg-10.card-bg-2.p-0.m-0.d-none.d-lg-block
+          .col-lg-10.card-bg-2-1.p-0.m-0.d-none.d-lg-block
             .row.justify-content-center.align-items-center  
               .col-1.p-0
                 img.img-t.img-a(src='@/assets/ilustraciones/5.svg', alt='')           
               .col-11.my-2
-                p.mb-0 En Colombia, están disponibles: parches, chicles y tabletas de nicotina, bupropion, varenicilina y clonidina, siendo este último, medicamento de segunda línea.
+                p.mb-0 En Colombia, están disponibles: parches, chicles y tabletas de nicotina, bupropión, vareniclina y clonidina, siendo este último, medicamento de segunda línea.
 
         .row.justify-content-center.align-items-center(data-aos="fade-right")       
-          .col-lg-10.card-bg-2.p-0.m-0.d-none.d-lg-block
+          .col-lg-10.card-bg-2-1.p-0.m-0.d-none.d-lg-block
             .row.justify-content-center.align-items-center  
               .col-1.p-0
                 img.img-t.img-a(src='@/assets/ilustraciones/6.svg', alt='')           
@@ -518,7 +518,7 @@
 
     .row.justify-content-center.align-items-center.mt-5
       .col-lg-3
-        img.img-a.img-t(data-aos="fade-left")(src="@/assets/ilustraciones/img36.png")        
+        img.img-a.img-t.my-3(data-aos="fade-left")(src="@/assets/ilustraciones/img36.png")        
       .col-lg-9
         p(data-aos="fade-right") La terapia farmacológica está indicada en personas que presentan un grado de dependencia física a la nicotina, ayudando a aliviar los síntomas de abstinencia que se pueden presentar. Los medicamentos por sí solos no se recomiendan, siempre deben estar acompañados de un esquema de consejería que complementa el cambio de conducta respecto del consumo de tabaco.
 
@@ -547,7 +547,7 @@
       li 
         .lista-ol--cuadro__vineta
           span 4
-        | Se debe ofrecer y recomendar a todo fumador que esté preparado para dejar de fumar, en ausencia de contraindicaciones.
+        | Se debe ofrecer y recomendar a todo fumador que esté #[b preparado] para dejar de fumar, en ausencia de contraindicaciones.
       li 
         .lista-ol--cuadro__vineta
           span 5
@@ -577,18 +577,19 @@
       li 
         .lista-ol--cuadro__vineta
           span 5
-        | Idealmente en personas preparadas para dejar de fumar.
+        | Idealmente en personas #[b preparadas] para dejar de fumar.
       li 
         .lista-ol--cuadro__vineta
           span 6
         | Como parte de una estrategia de consejería y seguimiento para dejar de fumar.
-
-    .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mt-5(data-aos="fade-right") 
-      .bloque-texto-g__img.m-left(
-        :style="{'background-image': `url(${require('@/assets/ilustraciones/img37.jpg')})`}"
-      )
-      .bloque-texto-g__texto.p-4
-        p.mb-0 En general, no se recomienda su uso en personas que consuman menos de 10 cigarrillos diarios, cuando existan contraindicaciones o en adolescentes y en gestantes por carecer de evidencia suficiente o por existir contraindicaciones para su uso en estos grupos de personas. (Becerra, Alba y Castillo, 2012). 
+    .row.justify-content-center.align-items-center
+      .col-lg-10
+        .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mt-5(data-aos="fade-right") 
+          .bloque-texto-g__img.m-left(
+            :style="{'background-image': `url(${require('@/assets/ilustraciones/img37.jpg')})`}"
+          )
+          .bloque-texto-g__texto.p-4
+            p.mb-0 En general, no se recomienda su uso en personas que consuman menos de 10 cigarrillos diarios, cuando existan contraindicaciones o en adolescentes y en gestantes por carecer de evidencia suficiente o por existir contraindicaciones para su uso en estos grupos de personas. (Becerra, Alba y Castillo, 2012). 
     img.img-t.img-a.mt-5(src='@/assets/ilustraciones/hr-before-h2.svg', alt='')    
     #t_2_3.titulo-segundo.mt-5(data-aos="slide-right")
       .h4 2.3  Otras intervenciones
@@ -604,15 +605,15 @@
         .bloque-texto-d.color-secundario.p-4.mt-5(data-aos="fade-right")
           .bloque-texto-d__texto.mb-2
             i.fas.fa-quote-left
-            h3.text-regular En los últimos años se ha planteado la posibilidad de usar los cigarrillos electrónicos, específicamente los que suministran nicotina, también conocidos como Sistemas Electrónicos de Suministro de Nicotina (SEAN) como una alternativa para el manejo del tabaquismo, pero aún no se cuenta con la evidencia es suficiente para soportar la recomendación de esto, además pueden tener posibles efectos y daños para la salud y la posibilidad de generar dependencia a la nicotina especialmente en los adolescentes y jóvenes.  Por estas razones, no se recomienda el uso de los cigarrillos electrónicos para el tratamiento del tabaquismo en Colombia.
+            h3.text-regular En los últimos años se ha planteado la posibilidad de usar los cigarrillos electrónicos, específicamente los que suministran nicotina, también conocidos como Sistemas Electrónicos de Suministro de Nicotina (SEAN) como una alternativa para el manejo del tabaquismo, pero aún no se cuenta con la evidencia suficiente para soportar la recomendación de esto, además pueden tener posibles efectos y daños para la salud y la posibilidad de generar dependencia a la nicotina especialmente en los adolescentes y jóvenes.  Por estas razones, no se recomienda el uso de los cigarrillos electrónicos para el tratamiento del tabaquismo en Colombia.
             i.fas.fa-quote-right
           .bloque-texto-d__autor 
-            .h5.mb-0 - Ministerio de Salud y Protección Social de Colombia, 2020
+            .h5.mb-0 - Ministerio de Salud y Protección Social de Colombia, 2020.
 
     .row.justify-content-center.align-items-stretch.mt-5(data-aos="fade-left")
       .col-lg-8
         img.img-a.img-t.img-margin.alert(src="@/assets/ilustraciones/img39.png")
-        p.row-card-color-1.mb-0.text-center #[b En resumen, el tratamiento del tabaquismo incluye intervenciones terapéuticas que han demostrado ser eficaces, como son la consejería, la terapia farmacológica y la combinación de consejería y terapia farmacológica.]
+        p.row-card-color-2.mb-0.text-center #[b En resumen, el tratamiento del tabaquismo incluye intervenciones terapéuticas que han demostrado ser eficaces, como son la consejería, la terapia farmacológica y la combinación de consejería y terapia farmacológica.]
 </template>
 
 <script>

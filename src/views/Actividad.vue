@@ -10,12 +10,12 @@
             img(src="@/assets/template/emparejamiento.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
-          h2 Actividad didáctica: autoevaluación de Conceptos básicos
+          h2 Actividad didáctica: autoevaluación de conceptos básicos
         p.mb-4 Apreciado participante a continuación encontrará una actividad didáctica, que le ayudará a afianzar los conceptos y aprendizajes del presente componente de formación.
         .tarjeta.tarjeta--azul.bg-acti.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0
-              p.fw-bold.mb-0 Esta es una actividad de arrastrar y soltar
+              p.fw-bold.mb-0 Esta es una actividad de arrastrar y soltar.
             .col-auto
               a.boton.boton--b(:href="obtenerLink('/actividades/actividad.html')" target="_blank")
                 span Realizar
