@@ -262,8 +262,8 @@
     .row.justify-content-center.align-items-center.mt-5(data-aos="fade-down-left")
       .col-lg-3.br-1
         p.mb-0.text-center(data-aos="slide-down") #[b Modelo de las 5 Rs]  
-    .row.justify-content-center.align-items-center.mt-5
-      .col-lg-3.mb-5.mb-lg-0.color-row-1(data-aos="fade-down-right")
+    .row.justify-content-center.align-items-center
+      .col-lg-3.mt-5.mb-lg-0.color-row-1(data-aos="fade-down-right")
         #flipper4.flip-container.zoom
           .flipper.text-center(@click='(e) => flip("#flipper4")')
             .front.Text
@@ -271,7 +271,7 @@
             .back.generic.py-4.px-5
               h4.mb-1 Relevancia        
 
-      .col-lg-3.mb-5.mb-lg-0.color-row-1(data-aos="fade-down")
+      .col-lg-3.mt-5.mb-lg-0.color-row-1(data-aos="fade-down")
         #flipper5.flip-container.zoom
           .flipper.text-center(@click='(e) => flip("#flipper5")')
             .front.Text
@@ -279,7 +279,7 @@
             .back.generic.py-4.px-5
               h4.mb-1 Riesgos  
 
-      .col-lg-3.mb-5.mb-lg-0.color-row-1(data-aos="fade-down-left")
+      .col-lg-3.mt-5.mb-lg-0.color-row-1(data-aos="fade-down-left")
         #flipper6.flip-container.zoom
           .flipper.text-center(@click='(e) => flip("#flipper6")')
             .front.Text
@@ -287,14 +287,14 @@
             .back.generic.py-4.px-5
               h4.mb-1 Recompensas
     .row.justify-content-center.align-items-center
-      .col-lg-3.mb-5.mb-lg-0.color-row-1(data-aos="fade-down-left")
+      .col-lg-3.mt-5.mb-lg-0.color-row-1(data-aos="fade-down-left")
         #flipper7.flip-container.zoom
           .flipper.text-center(@click='(e) => flip("#flipper7")')
             .front.Text
               h2.text-white R4
             .back.generic.py-4.px-5
               h4.mb-1 Resistencia     
-      .col-lg-3.mb-5.mb-lg-0.color-row-1(data-aos="fade-down-left")
+      .col-lg-3.mt-5.mb-lg-0.color-row-1(data-aos="fade-down-left")
         #flipper8.flip-container.zoom
           .flipper.text-center(@click='(e) => flip("#flipper8")')
             .front.Text
