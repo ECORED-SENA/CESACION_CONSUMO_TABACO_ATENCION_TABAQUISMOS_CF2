@@ -161,8 +161,7 @@ export default {
     {
       referencia:
         'Organización Mundial de la Salud. (2019). Los efectos benéficos principales de dejar de fumar. OMS. ',
-      link:
-        'https://www.who.int/es/news-room/q-a-detail/tobacco-health-benefits-of-smoking-cessation',
+      link: 'https://www.who.int/tobacco/quitting/benefits/es/',
     },
     {
       referencia:
@@ -229,19 +228,19 @@ export default {
       },
       {
         nombre: 'Yolanda Inés Sandoval Gil',
-        cargo: 'Profesional especializado',
+        cargo: 'Profesional especializada',
         centro:
-          'Ministerio de Salud - Subdirección de enfermedades no transmisibles',
+          'Subdirección de Enfermedades No Transmisibles - Ministerio de Salud.',
       },
       {
         nombre: 'Giovanna Andrea Escobar Ospina',
-        cargo: 'Diseñadora Instruccional',
-        centro: 'Regional Antioquia - Centro de Servicios de Salud',
+        cargo: 'Diseñadora instruccional',
+        centro: 'Centro de Servicios de Salud - Regional Antioquia.',
       },
       {
         nombre: 'Silvia Milena Sequeda Cárdenas',
         cargo: 'Evaluadora instruccional',
-        centro: 'Centro de gestión industrial - Regional Distrito Capital',
+        centro: 'Centro de Gestión Industrial - Regional Distrito Capital',
       },
       {
         nombre: 'Jhon Jairo Rodríguez Pérez',
@@ -275,7 +274,7 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Gilberto Junior Rodriguez Rodriguez',
+        nombre: 'Gilberto Junior Rodríguez Rodríguez',
         cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
@@ -311,7 +310,7 @@ export default {
       },
       {
         nombre: 'Edward Leonardo Pico Cabra',
-        cargo: 'Desarrollo Front-End',
+        cargo: 'Desarrollo front-end',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },

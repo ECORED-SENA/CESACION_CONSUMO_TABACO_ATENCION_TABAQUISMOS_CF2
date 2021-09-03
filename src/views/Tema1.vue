@@ -182,7 +182,7 @@
 
         p.mt-5(data-aos="slide-down") Estos síntomas son más intensos en las primeras 24 a 48 horas después de suspender el consumo de tabaco, aunque van disminuyendo gradualmente en intensidad durante las siguientes 2 o 3 semanas. En general, después de los 14 días, los síntomas del síndrome de abstinencia son menos intensos, por lo que una vez el paciente logra superar la barrera de los 14 días sin consumo de tabaco, la posibilidad de presentar síndrome de abstinencia es mucho menor, como se observa en la siguiente figura. 
 
-        .BorTit.mt-5(data-aos="fade-down") Figura 1.  Evolución del síndrome de abstinencia.       
+        .BorTit.mt-5(data-aos="fade-down") Figura 1.  Evolución del síndrome de abstinencia       
         img.mt-4.img-t.img-a(data-aos="fade-down")(src='@/assets/ilustraciones/img11.svg', alt='')
         figcaption.mt-3 Nota. Organización Panamericana de la Salud (2017). Taller cesación de tabaco 2017.  
         p.mt-5(data-aos="slide-down") Es importante conocer la evolución del síndrome de abstinencia, para poder informar a los pacientes, tranquilizarlos y tomar las medidas anticipatorias necesarias.  
@@ -239,7 +239,7 @@
       .col-lg-8
         p.mb-0.ml Para profundizar en los beneficios de la cesación del tabaco y productos derivados, realizar la lectura de ABECÉ efectos en la salud por el consumo de tabaco del Ministerio de Salud.  
       .col-lg-4
-        a.anexo(:href="obtenerLink('/downloads/abece-efectos-salud-tabaco.pdf')" target="_blank")
+        a.anexo.my-3(:href="obtenerLink('/downloads/abece-efectos-salud-tabaco.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto

@@ -246,18 +246,18 @@
         .bloque-texto-d.color-secundario.p-4.mt-5(data-aos="zoom-in")
           .bloque-texto-d__texto.mb-2
             i.fas.fa-quote-left
-            h3.text-regular Al igual que con el modelo de las “5 Aes” existe evidencia proveniente de estudios clínicos que ratifican la efectividad de la consejería breve motivacional. Un metaanálisis demostró que el incremento de las tasas de cesación fue de 26% (RR = 1,26; IC95% 1,16-1,36) cuando se compara la entrevista motivacional de mayor duración con la consejería breve. Sin embargo, este mismo estudio también encontró un incremento en las tasas de cesación cuando se llevan a cabo intervenciones motivacionales breves comparadas con la no intervención (RR = 1,69 IC 95% 1,34-2,12; 9 estudios n = 3,651). 
+            h3.text-regular Al igual que con el modelo de las “5 Aes” existe evidencia proveniente de estudios clínicos que ratifican la efectividad de la consejería breve motivacional. Un metaanálisis demostró que el incremento de las tasas de cesación fue de 26% (RR = 1,26; IC 95% 1,16-1,36) cuando se compara la entrevista motivacional de mayor duración con la consejería breve. Sin embargo, este mismo estudio también encontró un incremento en las tasas de cesación cuando se llevan a cabo intervenciones motivacionales breves comparadas con la no intervención (RR = 1,69 IC 95% 1,34-2,12; 9 estudios n = 3,651). 
             i.fas.fa-quote-right
           .bloque-texto-d__autor 
-            .h5.mb-0 - Lindson, Thompson y Begh, 2015
+            .h5.mb-0 - Lindson, Thompson y Begh, 2015.
             
     .row.justify-content-center.align-items-center.mt-5
       .col-lg-8 
         img.img-a.img-t(data-aos="flip-down")(src="@/assets/ilustraciones/img23.png")
-        p.mt-5(data-aos="fade-down-left") Vale la pena mencionar que este metaanálisis no encontró diferencias respecto al tipo de intervención breve realizada, no obstante, se recomienda que los países adopten un esquema estandarizado para llevar a cabo las intervenciones motivo por el cual se recomienda adoptar el esquema de las “5 R” para los pacientes no motivados.
+        p.mt-5(data-aos="fade-down-left") Vale la pena mencionar que este metaanálisis no encontró diferencias respecto al tipo de intervención breve realizada, no obstante, se recomienda que los países adopten un esquema estandarizado para llevar a cabo las intervenciones, motivo por el cual se recomienda adoptar el esquema de las “5 R” para los pacientes no motivados.
 
         .cajon.color-secundario.p-4.mt-5(data-aos="fade-up-left")
-          p.mb-0 El modelo de las 5 Rs está diseñado para realizarse en menos de 10 minutos y se utilizan 5 pasos cada uno de los cuales comienzan con la letra “R”:  
+          p.mb-0 El modelo de las 5 Rs está diseñado para realizarse en menos de 10 minutos y se utilizan 5 pasos, cada uno de los cuales comienza con la letra “R”:  
 
     .row.justify-content-center.align-items-center.mt-5(data-aos="fade-down-left")
       .col-lg-3.br-1
@@ -506,7 +506,7 @@
           .col-1.p-0
             img.img-t.img-a(src='@/assets/ilustraciones/5.svg', alt='')           
           .col-11.my-2
-            p.mb-0 En Colombia, están disponibles: parches, chicles y tabletas de nicotina, bupropion, varenicilina y clonidina, siendo este último, medicamento de segunda línea.
+            p.mb-0 En Colombia, están disponibles: parches, chicles y tabletas de nicotina, bupropión, vareniclina y clonidina, siendo este último, medicamento de segunda línea.
 
     .row.justify-content-center.align-items-center(data-aos="fade-right")       
       .col-lg-10.card-bg-2.p-0.m-0.d-block.d-lg-none.mt-4
@@ -547,7 +547,9 @@
       li 
         .lista-ol--cuadro__vineta
           span 4
-        | Se debe ofrecer y recomendar a todo fumador que esté #[b preparado] para dejar de fumar, en ausencia de contraindicaciones.
+        p.mb-0 Se debe ofrecer y recomendar a todo fumador que esté 
+          strong preparado 
+          |  para dejar de fumar, en ausencia de contraindicaciones.
       li 
         .lista-ol--cuadro__vineta
           span 5
@@ -577,7 +579,9 @@
       li 
         .lista-ol--cuadro__vineta
           span 5
-        | Idealmente en personas #[b preparadas] para dejar de fumar.
+        p.mb-0 Idealmente en personas 
+          strong preparadas 
+          | para dejar de fumar.
       li 
         .lista-ol--cuadro__vineta
           span 6
