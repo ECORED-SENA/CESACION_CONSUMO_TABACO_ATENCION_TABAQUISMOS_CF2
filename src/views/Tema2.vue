@@ -44,7 +44,7 @@
             p.mb-0 #[b Anexo.] Directrices para promover la cesación del consumo de tabaco y atención del tabaquismo.
     img.img-t.img-a.mt-5(src='@/assets/ilustraciones/hr-before-h2.svg', alt='')           
     #t_2_1.titulo-segundo.mt-5(data-aos="slide-right")
-      .h4 2.1  Consejería
+      h2 2.1  Consejería
     p.mt-5(data-aos="slide-down") La consejería se define como una actividad comunicativa que promueve tanto el diálogo entre el fumador y el profesional de la salud como el desarrollo de habilidades para que el fumador suspenda el consumo de tabaco.
 
     .row.justify-content-center.align-items-center.mt-5(data-aos="slide-up")       
@@ -408,7 +408,7 @@
     img.img-t.img-a.mt-5(src='@/assets/ilustraciones/hr-before-h2.svg', alt='')           
 
     #t_2_2.titulo-segundo.mt-5(data-aos="slide-right")
-      .h4 2.2  Terapia farmacológica
+      h2 2.2  Terapia farmacológica
 
     .row.justify-content-center.align-items-center.my-5
       .col-lg-9
@@ -596,7 +596,7 @@
             p.mb-0 En general, no se recomienda su uso en personas que consuman menos de 10 cigarrillos diarios, cuando existan contraindicaciones o en adolescentes y en gestantes por carecer de evidencia suficiente o por existir contraindicaciones para su uso en estos grupos de personas. (Becerra, Alba y Castillo, 2012). 
     img.img-t.img-a.mt-5(src='@/assets/ilustraciones/hr-before-h2.svg', alt='')    
     #t_2_3.titulo-segundo.mt-5(data-aos="slide-right")
-      .h4 2.3  Otras intervenciones
+      h2 2.3  Otras intervenciones
 
     .row.justify-content-center.align-items-center.mt-5(data-aos="slide-down")
       .col-lg-10

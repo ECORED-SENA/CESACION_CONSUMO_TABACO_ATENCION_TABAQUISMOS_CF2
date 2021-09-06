@@ -43,7 +43,7 @@
     img.img-t.img-a.mt-5(src='@/assets/ilustraciones/hr-before-h2.svg', alt='')           
 
     #t_1_1.titulo-segundo.mt-5(data-aos="slide-right")
-      .h4 1.1  Triple dependencia del tabaquismo 
+      h2 1.1  Triple dependencia del tabaquismo 
 
     p.mt-5(data-aos="slide-down") El tabaquismo resulta del consumo constante de productos del tabaco o sus derivados, generando el fenómeno conocido como la triple dependencia: dependencia física, psicológica y social. En cada fumador puede encontrarse en menor o mayor medida cada uno de los componentes de la triple dependencia del tabaquismo, las cuales se presentan en el siguiente recurso de aprendizaje:
     .row.justify-content-center.align-items-center.mt-5(data-aos="flip-down")       
@@ -90,7 +90,7 @@
     img.img-t.img-a.mt-5(src='@/assets/ilustraciones/hr-before-h2.svg', alt='') 
 
     #t_1_2.titulo-segundo.mt-5(data-aos="slide-right")
-      .h4 1.2 Efectos de la nicotina a nivel cerebral 
+      h2 1.2 Efectos de la nicotina a nivel cerebral 
 
     .row.justify-content-center.align-items-center.mt-5(data-aos="zoom-in-down")       
       .col-lg-12.card-bg-3.p-3 
@@ -115,7 +115,7 @@
     img.img-t.img-a.mt-5(src='@/assets/ilustraciones/hr-before-h2.svg', alt='') 
     
     #t_1_3.titulo-segundo.mt-5(data-aos="slide-right")
-      .h4 1.3  Síndrome de abstinencia
+      h2 1.3  Síndrome de abstinencia
 
     p.mt-5(data-aos="slide-down") Cuando una persona deja de fumar, se produce una respuesta bioquímica muy intensa a nivel de la vía noradrenérgica, como respuesta al descenso de los niveles de nicotina, manifestándose los signos del síndrome de abstinencia.      
 
@@ -189,7 +189,7 @@
 
     img.img-t.img-a.mt-5(src='@/assets/ilustraciones/hr-before-h2.svg', alt='')     
     #t_1_4.titulo-segundo.mt-5(data-aos="slide-right")
-      .h4 1.4  Beneficios de la cesación del tabaco y productos derivados   
+      h2 1.4  Beneficios de la cesación del tabaco y productos derivados   
 
     .row.justify-content-center.align-items-center.mt-5      
       .col-lg-4(data-aos="fade-right")
