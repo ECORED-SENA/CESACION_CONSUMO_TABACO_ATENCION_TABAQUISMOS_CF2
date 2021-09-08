@@ -469,7 +469,7 @@
                 p.mb-0 La utilización de fármacos duplica la probabilidad de dejar de fumar, con tasas de cesación a 6 meses alrededor del 25%. Esta eficacia puede incrementarse cuando la medicación se combina con consejería, alcanzando tasas de éxito hasta de 27,6%.
 
     .row.justify-content-center.align-items-center(data-aos="fade-right")       
-      .col-lg-10.card-bg-2.p-0.m-0.d-block.d-lg-none
+      .col-lg-10.card-bg-2-1.p-0.m-0.d-block.d-lg-none
         .row.justify-content-center.align-items-center  
           .col-1.p-0
             img.img-t.img-a(src='@/assets/ilustraciones/1.svg', alt='')           
@@ -477,7 +477,7 @@
             p.mb-0 Complemento de la consejería en sus diferentes modalidades para lograr el cambio conductual.
   
     .row.justify-content-center.align-items-center(data-aos="fade-right")       
-      .col-lg-10.card-bg-2.p-0.m-0.d-block.d-lg-none.mt-4
+      .col-lg-10.card-bg-2-1.p-0.m-0.d-block.d-lg-none.mt-4
         .row.justify-content-center.align-items-center  
           .col-1.p-0
             img.img-t.img-a(src='@/assets/ilustraciones/2.svg', alt='')           
@@ -485,7 +485,7 @@
             p.mb-0 Se utiliza por tiempo limitado, en general 8 a 12 semanas.    
   
     .row.justify-content-center.align-items-center(data-aos="fade-right")       
-      .col-lg-10.card-bg-2.p-0.m-0.d-block.d-lg-none.mt-4
+      .col-lg-10.card-bg-2-1.p-0.m-0.d-block.d-lg-none.mt-4
         .row.justify-content-center.align-items-center  
           .col-1.p-0
             img.img-t.img-a(src='@/assets/ilustraciones/3.svg', alt='')           
@@ -493,7 +493,7 @@
             p.mb-0 Se debe ofrecer y recomendar a todo fumador que está en etapa de cambio o de preparación para dejar de fumar, en ausencia de contraindicaciones.
   
     .row.justify-content-center.align-items-center(data-aos="fade-right")       
-      .col-lg-10.card-bg-2.p-0.m-0.d-block.d-lg-none.mt-4
+      .col-lg-10.card-bg-2-1.p-0.m-0.d-block.d-lg-none.mt-4
         .row.justify-content-center.align-items-center  
           .col-1.p-0
             img.img-t.img-a(src='@/assets/ilustraciones/4.svg', alt='')           
@@ -501,7 +501,7 @@
             p.mb-0 Aliviar los síntomas de abstinencia y ayudar a controlar ansias o impulso. 
   
     .row.justify-content-center.align-items-center(data-aos="fade-right")       
-      .col-lg-10.card-bg-2.p-0.m-0.d-block.d-lg-none.mt-4
+      .col-lg-10.card-bg-2-1.p-0.m-0.d-block.d-lg-none.mt-4
         .row.justify-content-center.align-items-center  
           .col-1.p-0
             img.img-t.img-a(src='@/assets/ilustraciones/5.svg', alt='')           
@@ -509,7 +509,7 @@
             p.mb-0 En Colombia, están disponibles: parches, chicles y tabletas de nicotina, bupropión, vareniclina y clonidina, siendo este último, medicamento de segunda línea.
 
     .row.justify-content-center.align-items-center(data-aos="fade-right")       
-      .col-lg-10.card-bg-2.p-0.m-0.d-block.d-lg-none.mt-4
+      .col-lg-10.card-bg-2-1.p-0.m-0.d-block.d-lg-none.mt-4
         .row.justify-content-center.align-items-center  
           .col-1.p-0
             img.img-t.img-a(src='@/assets/ilustraciones/6.svg', alt='')           

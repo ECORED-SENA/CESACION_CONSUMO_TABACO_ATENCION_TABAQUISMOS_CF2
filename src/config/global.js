@@ -161,7 +161,7 @@ export default {
     {
       referencia:
         'Organización Mundial de la Salud. (2019). Los efectos benéficos principales de dejar de fumar. OMS. ',
-      link: 'https://www.who.int/tobacco/quitting/benefits/es/',
+      link: 'https://apps.who.int/tobacco/quitting/benefits/es/index.html',
     },
     {
       referencia:
@@ -230,12 +230,12 @@ export default {
         nombre: 'Yolanda Inés Sandoval Gil',
         cargo: 'Profesional especializada',
         centro:
-          'Subdirección de Enfermedades No Transmisibles - Ministerio de Salud.',
+          'Subdirección de Enfermedades No Transmisibles - Ministerio de Salud',
       },
       {
         nombre: 'Giovanna Andrea Escobar Ospina',
         cargo: 'Diseñadora instruccional',
-        centro: 'Centro de Servicios de Salud - Regional Antioquia.',
+        centro: 'Centro de Servicios de Salud - Regional Antioquia',
       },
       {
         nombre: 'Silvia Milena Sequeda Cárdenas',
@@ -259,7 +259,7 @@ export default {
       {
         nombre: 'Leyson Fabian Castaño Perez',
         cargo: 'Soporte organizacional',
-        centro: 'Centro de Comercio y Servicios Regional - Tolima',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
       {
         nombre: 'Oscar Ivan Uribe Ortiz',
@@ -306,7 +306,7 @@ export default {
       {
         nombre: 'Zuleidy Maria Ruiz Torres',
         cargo: 'Producción audiovisual',
-        centro: 'Centro de Comercio y Servicios Regional - Tolima',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
       {
         nombre: 'Edward Leonardo Pico Cabra',
