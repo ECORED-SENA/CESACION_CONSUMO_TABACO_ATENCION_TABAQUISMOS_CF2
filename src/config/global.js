@@ -124,7 +124,7 @@ export default {
     },
     {
       referencia:
-        'Becerra , N., Alba,  L. H.  y Castillo J. S. (2012). Terapias alternativas para la cesación de la adicción al tabaco: Revisión de guías de práctica clínica. Gaceta Médica de México. 148:457-66.',
+        'Becerra, N., Alba,  L. H.  y Castillo J. S. (2012). Terapias alternativas para la cesación de la adicción al tabaco: Revisión de guías de práctica clínica. Gaceta Médica de México. 148:457-66.',
     },
     {
       referencia:

@@ -22,7 +22,7 @@
           .col-1.p-0
             img.img-t.img-a(src='@/assets/ilustraciones/1.svg', alt='')           
           .col-11.my-2
-            p.mb-0 Se estima que, aunque el 70% de los fumadores desean cesar su consumo, solo el 3% logra mantenerse sin fumar después de un año de haberlo intentado sin la asistencia médica necesaria. 	  
+            p.mb-0 Se estima que, aunque el 70 % de los fumadores desean cesar su consumo, solo el 3 % logra mantenerse sin fumar después de un año de haberlo intentado sin la asistencia médica necesaria. 	  
 
     .row.justify-content-center.align-items-center.mt-3(data-aos="fade-left")       
       .col-lg-10.card-bg-2
@@ -30,7 +30,7 @@
           .col-1.p-0
             img.img-t.img-a(src='@/assets/ilustraciones/2.svg', alt='')           
           .col-11.my-2
-            p.mb-0 Aproximadamente el 30% de las personas que tienen una asistencia por parte del equipo de salud para la cesación logran el objetivo terapéutico: dejar de fumar.	 
+            p.mb-0 Aproximadamente el 30 % de las personas que tienen una asistencia por parte del equipo de salud para la cesación logran el objetivo terapéutico: dejar de fumar.	 
 
     .row.justify-content-center.align-items-center.mt-3(data-aos="fade-right")       
       .col-lg-10.card-bg-2
@@ -195,9 +195,9 @@
       .col-lg-4(data-aos="fade-right")
         img.img-t.img-a.my-3(src='@/assets/ilustraciones/img12.png', alt='') 
       .col-lg-8 
-        p(data-aos="fade-down-left") Los beneficios de abandonar el consumo de tabaco se hacen evidentes inmediatamente, generando un impacto positivo sobre la salud, calidad de vida y situación económica de las personas, además de los efectos positivos sobre el entorno de las personas que conviven con el fumador. Dejar de fumar antes de los 40 años disminuye el riesgo de muerte asociada al tabaquismo en un 90%. 
+        p(data-aos="fade-down-left") Los beneficios de abandonar el consumo de tabaco se hacen evidentes inmediatamente, generando un impacto positivo sobre la salud, calidad de vida y situación económica de las personas, además de los efectos positivos sobre el entorno de las personas que conviven con el fumador. Dejar de fumar antes de los 40 años disminuye el riesgo de muerte asociada al tabaquismo en un 90 %. 
         .cajon.color-primario.p-4(data-aos="fade-up-left")
-          p.mb-0 Existen tratamientos efectivos para el tratamiento del tabaquismo, no obstante, los índices de abordaje del tabaquismo en el ámbito del cuidado primario siguen siendo muy bajos. Un estudio realizado en Chile, (Alcántara–Gómez et al, 2016), reportó que solamente el 43,7% de los pacientes atendidos en un escenario de atención primaria fue evaluado sobre el consumo de tabaco, y del total de fumadores, solo al 37,1% se le aconsejó dejar de fumar. 
+          p.mb-0 Existen tratamientos efectivos para el tratamiento del tabaquismo, no obstante, los índices de abordaje del tabaquismo en el ámbito del cuidado primario siguen siendo muy bajos. Un estudio realizado en Chile, (Alcántara–Gómez et al, 2016), reportó que solamente el 43,7 % de los pacientes atendidos en un escenario de atención primaria fue evaluado sobre el consumo de tabaco, y del total de fumadores, solo al 37,1 % se le aconsejó dejar de fumar. 
 
     p.mt-5(data-aos="slide-down") Es por este motivo que surge la necesidad de fortalecer los sistemas de salud para alcanzar una adecuada atención del tabaquismo en los diferentes entornos a partir de una oportuna identificación de personas consumidoras de tabaco o productos derivados y la aplicación de intervenciones efectivas para la cesación del consumo.
 

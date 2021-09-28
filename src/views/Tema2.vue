@@ -10,10 +10,10 @@
       .col-lg-5
         img.img-t.img-a.my-3(src='@/assets/ilustraciones/img13.png', alt='')           
       .col-lg-7
-        p(data-aos="slide-down") Alrededor del 70% de los consumidores de tabaco manifiestan su deseo de dejar de fumar y un 40% lo intenta cada año, solamente un 3% puede mantenerse libre de consumo, en contraste con el 30% que tiene la posibilidad de lograrlo con el tratamiento de cesación tabáquica adecuado. 
+        p(data-aos="slide-down") Alrededor del 70 % de los consumidores de tabaco manifiestan su deseo de dejar de fumar y un 40 % lo intenta cada año, solamente un 3 % puede mantenerse libre de consumo, en contraste con el 30 % que tiene la posibilidad de lograrlo con el tratamiento de cesación tabáquica adecuado. 
         .cajon.color-primario.p-4(data-aos="fade-up-left")
           p.mb-0 Adicional a las intervenciones poblacionales efectivas para el control de tabaco, enmarcadas en la estrategia MPOWER del convenio Marco, existen tratamientos efectivos para el manejo de la dependencia del tabaquismo (Alba LH, et al, 2013).         
-        p(data-aos="slide-down").mt-3 Los profesionales de la salud tienen la oportunidad de aconsejar y asistir a los pacientes que son consumidores de productos de tabaco y sus derivados, teniendo en cuenta que al menos el 70% de los fumadores acude a una consulta médica una vez al año y un 50% por lo menos a una valoración odontológica.
+        p(data-aos="slide-down").mt-3 Los profesionales de la salud tienen la oportunidad de aconsejar y asistir a los pacientes que son consumidores de productos de tabaco y sus derivados, teniendo en cuenta que al menos el 70 % de los fumadores acude a una consulta médica una vez al año y un 50 % por lo menos a una valoración odontológica.
 
     .row.justify-content-center.align-items-center.mt-5(data-aos="fade-down-left")
       .col-lg-10.br-1
@@ -106,7 +106,7 @@
           h5.mb-2 Las intervenciones breves, tienen como objetivo que las personas logren avanzar en el proceso de dejar de fumar o vapear y hagan intentos serios para conseguirlo. Deben ser aplicadas en el marco de la consulta y pueden tener una duración de 3 a 10 minutos. 
           span - Ministerio de Salud, 2020.
 
-        p.mt-5(data-aos="slide-down") Las intervenciones breves han demostrado una tasa de cesación del 16% frente a la no intervención (OR = 1,9). (Organización Panamericana de la Salud, 2020).
+        p.mt-5(data-aos="slide-down") Las intervenciones breves han demostrado una tasa de cesación del 16 % frente a la no intervención (OR = 1,9). (Organización Panamericana de la Salud, 2020).
 
         .h4.mt-5(data-aos="slide-right").title-gray ● Modelos de consejería breve
         
@@ -246,7 +246,7 @@
         .bloque-texto-d.color-secundario.p-4.mt-5(data-aos="zoom-in")
           .bloque-texto-d__texto.mb-2
             i.fas.fa-quote-left
-            h3.text-regular Al igual que con el modelo de las “5 Aes” existe evidencia proveniente de estudios clínicos que ratifican la efectividad de la consejería breve motivacional. Un metaanálisis demostró que el incremento de las tasas de cesación fue de 26% (RR = 1,26; IC 95% 1,16-1,36) cuando se compara la entrevista motivacional de mayor duración con la consejería breve. Sin embargo, este mismo estudio también encontró un incremento en las tasas de cesación cuando se llevan a cabo intervenciones motivacionales breves comparadas con la no intervención (RR = 1,69 IC 95% 1,34-2,12; 9 estudios n = 3,651). 
+            h3.text-regular Al igual que con el modelo de las “5 Aes” existe evidencia proveniente de estudios clínicos que ratifican la efectividad de la consejería breve motivacional. Un metaanálisis demostró que el incremento de las tasas de cesación fue de 26 % (RR = 1,26; IC 95 % 1,16-1,36) cuando se compara la entrevista motivacional de mayor duración con la consejería breve. Sin embargo, este mismo estudio también encontró un incremento en las tasas de cesación cuando se llevan a cabo intervenciones motivacionales breves comparadas con la no intervención (RR = 1,69 IC 95 % 1,34-2,12; 9 estudios n = 3,651). 
             i.fas.fa-quote-right
           .bloque-texto-d__autor 
             .h5.mb-0 - Lindson, Thompson y Begh, 2015.
@@ -466,7 +466,7 @@
               .col-1.p-0
                 img.img-t.img-a(src='@/assets/ilustraciones/6.svg', alt='')           
               .col-11.my-2
-                p.mb-0 La utilización de fármacos duplica la probabilidad de dejar de fumar, con tasas de cesación a 6 meses alrededor del 25%. Esta eficacia puede incrementarse cuando la medicación se combina con consejería, alcanzando tasas de éxito hasta de 27,6%.
+                p.mb-0 La utilización de fármacos duplica la probabilidad de dejar de fumar, con tasas de cesación a 6 meses alrededor del 25 %. Esta eficacia puede incrementarse cuando la medicación se combina con consejería, alcanzando tasas de éxito hasta de 27,6 %.
 
     .row.justify-content-center.align-items-center(data-aos="fade-right")       
       .col-lg-10.card-bg-2-1.p-0.m-0.d-block.d-lg-none
@@ -514,7 +514,7 @@
           .col-1.p-0
             img.img-t.img-a(src='@/assets/ilustraciones/6.svg', alt='')           
           .col-11.my-2
-            p.mb-0 La utilización de fármacos duplica la probabilidad de dejar de fumar, con tasas de cesación a 6 meses alrededor del 25%. Esta eficacia puede incrementarse cuando la medicación se combina con consejería, alcanzando tasas de éxito hasta de 27,6%.
+            p.mb-0 La utilización de fármacos duplica la probabilidad de dejar de fumar, con tasas de cesación a 6 meses alrededor del 25 %. Esta eficacia puede incrementarse cuando la medicación se combina con consejería, alcanzando tasas de éxito hasta de 27,6 %.
 
     .row.justify-content-center.align-items-center.mt-5
       .col-lg-3
@@ -522,7 +522,7 @@
       .col-lg-9
         p(data-aos="fade-right") La terapia farmacológica está indicada en personas que presentan un grado de dependencia física a la nicotina, ayudando a aliviar los síntomas de abstinencia que se pueden presentar. Los medicamentos por sí solos no se recomiendan, siempre deben estar acompañados de un esquema de consejería que complementa el cambio de conducta respecto del consumo de tabaco.
 
-        p(data-aos="fade-right") Los medicamentos de primera línea para la cesación de tabaco son la Terapia de Reemplazo Nicotínico, la vareniclina y el bupropión, cualquiera de los cuales incrementan significativamente las tasas de cesación de tabaco a largo plazo comparados con el placebo logrando tasas de hasta el 27% al combinarse con consejería. 
+        p(data-aos="fade-right") Los medicamentos de primera línea para la cesación de tabaco son la Terapia de Reemplazo Nicotínico, la vareniclina y el bupropión, cualquiera de los cuales incrementan significativamente las tasas de cesación de tabaco a largo plazo comparados con el placebo logrando tasas de hasta el 27 % al combinarse con consejería. 
 
         .bloque-texto-c.color-primario.p-4(data-aos="zoom-in")
           i.fas.fa-quote-right
