@@ -37,9 +37,9 @@
       .col-lg-8
         p.mb-0.ml Para profundizar en las intervenciones, se invita a realizar la lectura de: Las directrices para desarrollar programas para la cesación del consumo de tabaco y atención del tabaquismo, publicadas por el Ministerio de Salud y Protección Social de Colombia. (2020).
       .col-lg-4
-        a.my-4.anexo(:href="obtenerLink('/downloads/directrices-cesacion-consumo-atencion-tabaco.pdf')" target="_blank")
+        a.my-4.anexo(href="https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/VS/PP/ENT/directrices-cesacion-consumo-atencion-tabaco.pdf" target="_blank")
           .anexo__icono
-            img(src="@/assets/template/icono-pdf.svg")
+            img(src="@/assets/template/icono-link.svg")
           .anexo__texto
             p.mb-0 #[b Anexo.] Directrices para promover la cesación del consumo de tabaco y atención del tabaquismo.
     img.img-t.img-a.mt-5(src='@/assets/ilustraciones/hr-before-h2.svg', alt='')           
@@ -602,6 +602,14 @@
       .col-lg-10
         p Frente al uso de otras intervenciones terapéuticas como la acupuntura, la hipnosis y la homeopatía, no se ha encontrado evidencia que permita recomendar su uso como parte de los tratamientos efectivos para la cesación de tabaco. Por lo tanto, se recomienda exclusivamente el uso de los tratamientos con demostrada evidencia para la atención del tabaquismo. 
 
+      .row.justify-content-center.align-items-center.mt-5(data-aos="fade-down")
+        .col-lg-8
+          a.anexo(href="https://www.cancer.gov.co/recursos_user/files/libros/archivos/COMPILACI%C3%93N.pdf" target="_blank")
+            .anexo__icono
+              img(src="@/assets/template/icono-link.svg")
+            .anexo__texto
+              p.mb-0 #[b Anexo.] Compilación de las recomendaciones actualizadas para Profesionales de la salud en Colombia. Instituto Nacional de Cancerología, 2016.
+
     .row.justify-content-center.align-items-center.mt-5(data-aos="fade-down")
       .col-lg-8
         img.img-a.img-t(src="@/assets/ilustraciones/img38.png")        
@@ -613,7 +621,13 @@
             i.fas.fa-quote-right
           .bloque-texto-d__autor 
             .h5.mb-0 - Ministerio de Salud y Protección Social de Colombia, 2020.
-
+      .row.justify-content-center.align-items-center.mt-5(data-aos="fade-down")
+        .col-lg-8
+          a.anexo(href="http://iets.org.co/Archivos/3/Policy_brief_version_corta.pdf" target="_blank")
+            .anexo__icono
+              img(src="@/assets/template/icono-link.svg")
+            .anexo__texto
+              p.mb-0 #[b Anexo.] Adoptado del Police Brief “Opciones en Colombia para la regulación del uso de sistemas electrónicos con o sin dispensación de nicotina: un resumen de evidencias para política”, 2018.  
     .row.justify-content-center.align-items-stretch.mt-5(data-aos="fade-left")
       .col-lg-8
         img.img-a.img-t.img-margin.alert(src="@/assets/ilustraciones/img39.png")

@@ -105,11 +105,7 @@ export default {
         titulo: 'Referencias bibliográficas',
         nombreRuta: 'referencias',
       },
-      {
-        icono: 'fas fa-download',
-        titulo: 'Descargar material',
-        download: 'downloads/material.zip',
-      },
+
       {
         icono: 'far fa-registered',
         titulo: 'Créditos',
@@ -227,12 +223,6 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Yolanda Inés Sandoval Gil',
-        cargo: 'Profesional especializada',
-        centro:
-          'Subdirección de Enfermedades No Transmisibles - Ministerio de Salud',
-      },
-      {
         nombre: 'Giovanna Andrea Escobar Ospina',
         cargo: 'Diseñadora instruccional',
         centro: 'Centro de Servicios de Salud - Regional Antioquia',
@@ -247,6 +237,17 @@ export default {
         cargo: 'Diseñador y evaluador instruccional',
         centro:
           'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
+      },
+      {
+        nombre: 'Yolanda Ines Sandoval Gil',
+        cargo: 'Profesional Especializado',
+        centro:
+          'Ministerio de Salud y Protección Social – Subdirección de Enfermedades No Transmisibles',
+      },
+      {
+        nombre: 'Nelci Becerra Martínez',
+        cargo: 'Asesora',
+        centro: 'Organización Panamericana de la Salud - Proyecto FCTC 2030',
       },
     ],
     desarrolloProducto: [
